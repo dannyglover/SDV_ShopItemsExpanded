@@ -1,0 +1,969 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        //
+		//Shop - Robin (Carpenter)
+		//
+		"Clay Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Clay to the shop (if enabled).",
+			"Section": "Shop - Robin (Carpenter)"
+		},
+        "Clay Price": {
+            "AllowMultiple": false,
+            "Default": 50,
+            "Section": "Shop - Robin (Carpenter)"
+        },
+        "Hardwood Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Hardwood to the shop (if enabled).",
+			"Section": "Shop - Robin (Carpenter)"
+		},
+        "Hardwood Price": {
+            "AllowMultiple": false,
+            "Default": 80,
+            "Section": "Shop - Robin (Carpenter)"
+        },
+        "Battery Pack Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Battery Packs to the shop (if enabled).",
+			"Section": "Shop - Robin (Carpenter)"
+		},
+        "Battery Pack Price": {
+            "AllowMultiple": false,
+            "Default": 800,
+            "Section": "Shop - Robin (Carpenter)"
+        },
+        //
+		//Shop - Clint (Blacksmith)
+		//
+		"Iridium Ore Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Iridium Ore to the shop (if enabled).",
+			"Section": "Shop - Clint (Blacksmith)"
+		},
+        "Iridium Ore Price": {
+            "AllowMultiple": false,
+            "Default": 250,
+            "Section": "Shop - Clint (Blacksmith)"
+        },
+        "Copper Bar Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Copper Bars to the shop (if enabled).",
+			"Section": "Shop - Clint (Blacksmith)"
+		},
+        "Copper Bar Price": {
+            "AllowMultiple": false,
+            "Default": 150,
+            "Section": "Shop - Clint (Blacksmith)"
+        },
+        "Iron Bar Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Iron Bars to the shop (if enabled).",
+			"Section": "Shop - Clint (Blacksmith)"
+		},
+        "Iron Bar Price": {
+            "AllowMultiple": false,
+            "Default": 350,
+            "Section": "Shop - Clint (Blacksmith)"
+        },
+        "Gold Bar Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Gold Bars to the shop (if enabled).",
+			"Section": "Shop - Clint (Blacksmith)"
+		},
+        "Gold Bar Price": {
+            "AllowMultiple": false,
+            "Default": 550,
+            "Section": "Shop - Clint (Blacksmith)"
+        },
+        "Refined Quartz Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Refined Quartz Bars to the shop (if enabled).",
+			"Section": "Shop - Clint (Blacksmith)"
+		},
+		"Refined Quartz Price": {
+            "AllowMultiple": false,
+            "Default": 750,
+            "Section": "Shop - Clint (Blacksmith)"
+        },
+        "Iridium Bar Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Iridium Bars to the shop (if enabled).",
+			"Section": "Shop - Clint (Blacksmith)"
+		},
+        "Iridium Bar Price": {
+            "AllowMultiple": false,
+            "Default": 1200,
+            "Section": "Shop - Clint (Blacksmith)"
+        },
+        "Artifact Trove Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Artifiact Troves to the shop (if enabled).",
+			"Section": "Shop - Clint (Blacksmith)"
+		},
+        "Artifact Trove Price": {
+            "AllowMultiple": false,
+            "Default": 5000,
+            "Section": "Shop - Clint (Blacksmith)"
+        },
+        //
+        //Shop - Willy (Fish Shop)
+        //
+        "Cave Jelly Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Cave Jelly to the shop (if enabled).",
+			"Section": "Shop - Willy (Fish Shop)"
+		},
+        "Cave Jelly Price": {
+            "AllowMultiple": false,
+            "Default": 150,
+            "Section": "Shop - Willy (Fish Shop)"
+        },
+        "River Jelly Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds River Jelly to the shop (if enabled).",
+			"Section": "Shop - Willy (Fish Shop)"
+		},
+        "River Jelly Price": {
+            "AllowMultiple": false,
+            "Default": 100,
+            "Section": "Shop - Willy (Fish Shop)"
+        },
+        "Sea Jelly Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Sea Jelly to the shop (if enabled).",
+			"Section": "Shop - Willy (Fish Shop)"
+		},
+        "Sea Jelly Price": {
+            "AllowMultiple": false,
+            "Default": 100,
+            "Section": "Shop - Willy (Fish Shop)"
+        },
+        "Seaweed Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Seaweed to the shop (if enabled).",
+			"Section": "Shop - Willy (Fish Shop)"
+		},
+        "Seaweed Price": {
+            "AllowMultiple": false,
+            "Default": 40,
+            "Section": "Shop - Willy (Fish Shop)"
+        },
+        "Green Algae Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Green Algae to the shop (if enabled).",
+			"Section": "Shop - Willy (Fish Shop)"
+		},
+        "Green Algae Price": {
+            "AllowMultiple": false,
+            "Default": 180,
+            "Section": "Shop - Willy (Fish Shop)"
+        },
+        "White Algae Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds White Algae to the shop (if enabled).",
+			"Section": "Shop - Willy (Fish Shop)"
+		},
+        "White Algae Price": {
+            "AllowMultiple": false,
+            "Default": 180,
+            "Section": "Shop - Willy (Fish Shop)"
+        },
+        //
+		//Shop - Pierre (Seed Shop)
+		//
+		"Fiber Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Fiber to the shop (if enabled).",
+			"Section": "Shop - Pierre (Seed Shop)"
+		},
+        "Fiber Price": {
+            "AllowMultiple": false,
+            "Default": 40,
+            "Section": "Shop - Pierre (Seed Shop)"
+        },
+        "Pine Tar Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Pine Tar to the shop (if enabled).",
+			"Section": "Shop - Pierre (Seed Shop)"
+		},
+        "Pine Tar Price": {
+            "AllowMultiple": false,
+            "Default": 350,
+            "Section": "Shop - Pierre (Seed Shop)"
+        },
+        "Oak Resin Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Oak Resin to the shop (if enabled).",
+			"Section": "Shop - Pierre (Seed Shop)"
+		},
+        "Oak Resin Price": {
+            "AllowMultiple": false,
+            "Default": 350,
+            "Section": "Shop - Pierre (Seed Shop)"
+        },
+        "Strawberry Seeds Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Strawberry Seeds to the shop (if enabled). Only available in the Spring season.",
+			"Section": "Shop - Pierre (Seed Shop)"
+		},
+        "Strawberry Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 150,
+            "Section": "Shop - Pierre (Seed Shop)"
+        },
+        "Winter Seeds Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Winter Seeds to the shop (if enabled) - Only available in the Winter season.",
+			"Section": "Shop - Pierre (Seed Shop)"
+		},
+        "Winter Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 40,
+            "Section": "Shop - Pierre (Seed Shop)"
+        },
+        "Ancient Seeds Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Ancient Seeds to the shop (if enabled) - Available all seasons except Winter.",
+			"Section": "Shop - Pierre (Seed Shop)"
+		},
+        "Ancient Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 1000,
+            "Section": "Shop - Pierre (Seed Shop)"
+        },
+        "Rare Seeds Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Rare Seeds to the shop (if enabled). Only available in the Spring season.",
+			"Section": "Shop - Pierre (Seed Shop)"
+		},
+        "Rare Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 1500,
+            "Section": "Shop - Pierre (Seed Shop)"
+        },
+        //
+		//Shop - Krobus (Shadow Shop)
+		//
+		"Bat Wings Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Bat Wings to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Bat Wings Price": {
+            "AllowMultiple": false,
+            "Default": 80,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+        "Solar Essence Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Solar Essence to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Solar Essence Price": {
+            "AllowMultiple": false,
+            "Default": 50,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+        "Void Essence Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Void Essence to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Void Essence Price": {
+            "AllowMultiple": false,
+            "Default": 50,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+        "Cloth Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Cloth to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Cloth Price": {
+            "AllowMultiple": false,
+            "Default": 600,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+        "Iridium Sprinkler Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Iridium Spinklers to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Iridium Sprinkler Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+        "Dinosaur Egg Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Dinosaur Eggs to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Dinosaur Egg Price": {
+            "AllowMultiple": false,
+            "Default": 5000,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+        "Ostrich Egg Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Ostrich Eggs to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Ostrich Egg Price": {
+            "AllowMultiple": false,
+            "Default": 5000,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+        "Star Shards Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Star Shards to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Star Shards Price": {
+            "AllowMultiple": false,
+            "Default": 800,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+        "Prismatic Shard Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Prismatic Shards to the shop (if enabled).",
+			"Section": "Shop - Krobus (Shadow Shop)"
+		},
+        "Prismatic Shard Price": {
+            "AllowMultiple": false,
+            "Default": 50000,
+            "Section": "Shop - Krobus (Shadow Shop)"
+        },
+    },
+    "Changes": [
+        //
+		//Shop - Robin (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Battery Pack Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_BatteryPack": {
+                    "Id": "Add.ModId_BatteryPack",
+                    "ItemId": "(O)787",
+                    "Price": "{{Battery Pack Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BatteryPack", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Hardwood Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Hardwood": {
+                    "Id": "Add.ModId_Hardwood",
+                    "ItemId": "(O)709",
+                    "Price": "{{Hardwood Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Hardwood", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Clay Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Clay": {
+                    "Id": "Add.ModId_Clay",
+                    "ItemId": "(O)330",
+                    "Price": "{{Clay Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Clay", "ToPosition": "Top" },
+            ]
+        },
+        //
+		//Shop - Clint (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Artifact Trove Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_ArtifactTrove": {
+                    "Id": "Add.ModId_ArtifactTrove",
+                    "ItemId": "(O)275",
+                    "Price": "{{Artifact Trove Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_ArtifactTrove", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Iridium Bar Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_IridiumBar": {
+                    "Id": "Add.ModId_IridiumBar",
+                    "ItemId": "(O)337",
+                    "Price": "{{Iridium Bar Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IridiumBar", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Refined Quartz Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_RefinedQuartz": {
+                    "Id": "Add.ModId_RefinedQuartz",
+                    "ItemId": "(O)338",
+                    "Price": "{{Refined Quartz Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RefinedQuartz", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Gold Bar Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_GoldBar": {
+                    "Id": "Add.ModId_GoldBar",
+                    "ItemId": "(O)336",
+                    "Price": "{{Gold Bar Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GoldBar", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Iron Bar Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_IronBar": {
+                    "Id": "Add.ModId_IronBar",
+                    "ItemId": "(O)335",
+                    "Price": "{{Iron Bar Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IronBar", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Copper Bar Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_CopperBar": {
+                    "Id": "Add.ModId_CopperBar",
+                    "ItemId": "(O)334",
+                    "Price": "{{Copper Bar Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_CopperBar", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Iridium Ore Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_IridiumOre": {
+                    "Id": "Add.ModId_IridiumOre",
+                    "ItemId": "(O)386",
+                    "Price": "{{Iridium Ore Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IridiumOre", "ToPosition": "Top" },
+            ]
+        },
+        //
+		//Shop - Willy (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "White Algae Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_IridiumOre": {
+                    "Id": "Add.ModId_WhiteAlgae",
+                    "ItemId": "(O)157",
+                    "Price": "{{White Algae Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WhiteAlgae", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Green Algae Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_GreenAlgae": {
+                    "Id": "Add.ModId_GreenAlgae",
+                    "ItemId": "(O)153",
+                    "Price": "{{Green Algae Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GreenAlgae", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Seaweed Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Seaweed": {
+                    "Id": "Add.ModId_Seaweed",
+                    "ItemId": "(O)152",
+                    "Price": "{{Seaweed Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Seaweed", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Sea Jelly Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_SeaJelly": {
+                    "Id": "Add.ModId_SeaJelly",
+                    "ItemId": "(O)SeaJelly",
+                    "Price": "{{Sea Jelly Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SeaJelly", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "River Jelly Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_RiverJelly": {
+                    "Id": "Add.ModId_RiverJelly",
+                    "ItemId": "(O)RiverJelly",
+                    "Price": "{{River Jelly Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RiverJelly", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Cave Jelly Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_CaveJelly": {
+                    "Id": "Add.ModId_CaveJelly",
+                    "ItemId": "(O)CaveJelly",
+                    "Price": "{{Cave Jelly Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_CaveJelly", "ToPosition": "Top" },
+            ]
+        },
+        //
+		//Shop - Pierre (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		//
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Rare Seeds Enabled": true,
+                "Season": "spring",
+            },
+            "Entries": {
+                "Add.ModId_RareSeeds": {
+                    "Id": "Add.ModId_RareSeeds",
+                    "ItemId": "(O)347",
+                    "Price": "{{Rare Seeds Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RareSeeds", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Ancient Seeds Enabled": true,
+                "Season": "spring, summer, fall",
+            },
+            "Entries": {
+                "Add.ModId_AncientSeeds": {
+                    "Id": "Add.ModId_AncientSeeds",
+                    "ItemId": "(O)114",
+                    "Price": "{{Ancient Seeds Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_AncientSeeds", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Winter Seeds Enabled": true,
+                "Season": "winter",
+            },
+            "Entries": {
+                "Add.ModId_WinterSeeds": {
+                    "Id": "Add.ModId_WinterSeeds",
+                    "ItemId": "(O)498",
+                    "Price": "{{Winter Seeds Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WinterSeeds", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Strawberry Seeds Enabled": true,
+                "Season": "spring",
+            },
+            "Entries": {
+                "Add.ModId_StrawberrySeeds": {
+                    "Id": "Add.ModId_StrawberrySeeds",
+                    "ItemId": "(O)745",
+                    "Price": "{{Strawberry Seeds Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StrawberrySeeds", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Oak Resin Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_OakResin": {
+                    "Id": "Add.ModId_OakResin",
+                    "ItemId": "(O)725",
+                    "Price": "{{Oak Resin Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_OakResin", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Pine Tar Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_PineTar": {
+                    "Id": "Add.ModId_PineTar",
+                    "ItemId": "(O)726",
+                    "Price": "{{Pine Tar Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PineTar", "ToPosition": "Top" },
+            ]
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Fiber Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Fiber": {
+                    "Id": "Add.ModId_Fiber",
+                    "ItemId": "(O)771",
+                    "Price": "{{Fiber Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Fiber", "ToPosition": "Top" },
+            ]
+        },
+        //
+		//Shop - Krobus (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Prismatic Shard Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_PrismaticShard": {
+                    "Id": "Add.ModId_PrismaticShard",
+                    "ItemId": "(O)74",
+                    "Price": "{{Prismatic Shard Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrismaticShard", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Star Shards Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_StarShards": {
+                    "Id": "Add.ModId_StarShards",
+                    "ItemId": "(O)578",
+                    "Price": "{{Star Shards Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StarShards", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Ostrich Egg Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_OstrichEgg": {
+                    "Id": "Add.ModId_OstrichEgg",
+                    "ItemId": "(O)289",
+                    "Price": "{{Ostrich Egg Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_OstrichEgg", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Dinosaur Egg Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_DinosaurEgg": {
+                    "Id": "Add.ModId_DinosaurEgg",
+                    "ItemId": "(O)107",
+                    "Price": "{{Dinosaur Egg Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DinosaurEgg", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Iridium Sprinkler Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_IridiumSprinkler": {
+                    "Id": "Add.ModId_IridiumSprinkler",
+                    "ItemId": "(O)645",
+                    "Price": "{{Iridium Sprinkler Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IridiumSprinkler", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Cloth Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Cloth": {
+                    "Id": "Add.ModId_Cloth",
+                    "ItemId": "(O)428",
+                    "Price": "{{Cloth Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Cloth", "ToPosition": "Top" },
+            ]
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Void Essence Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_VoidEssence": {
+                    "Id": "Add.ModId_VoidEssence",
+                    "ItemId": "(O)769",
+                    "Price": "{{Void Essence Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_VoidEssence", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Solar Essence Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_SolarEssence": {
+                    "Id": "Add.ModId_SolarEssence",
+                    "ItemId": "(O)768",
+                    "Price": "{{Solar Essence Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SolarEssence", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Bat Wings Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_BatWings": {
+                    "Id": "Add.ModId_BatWings",
+                    "ItemId": "(O)767",
+                    "Price": "{{Bat Wings Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BatWings", "ToPosition": "Top" },
+            ]
+        },
+    ]
+}

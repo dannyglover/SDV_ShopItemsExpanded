@@ -1,0 +1,12 @@
+#!/bin/bash
+
+VERSION=1.0
+RELEASE_DIRECTORY="{CP] Shop Items Expanded"
+RELEASE_FILENAME="${RELEASE_DIRECTORY}_v${VERSION}.zip"
+rm -rf "${RELEASE_DIRECTORY}"
+rm "${RELEASE_FILENAME}"
+mkdir -p "${RELEASE_DIRECTORY}"
+cp content.json "${RELEASE_DIRECTORY}"
+cp manifest.json "${RELEASE_DIRECTORY}"
+zip -r "${RELEASE_FILENAME}" "${RELEASE_DIRECTORY}"
+rm -rf "${RELEASE_DIRECTORY}"
