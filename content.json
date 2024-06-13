@@ -700,7 +700,7 @@
             "Entries": {
                 "Add.ModId_AncientSeeds": {
                     "Id": "Add.ModId_AncientSeeds",
-                    "ItemId": "(O)114",
+                    "ItemId": "(O)499",
                     "Price": "{{Ancient Seeds Price}}",
                 },
             },
