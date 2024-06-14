@@ -10,13 +10,45 @@ I'm open to requests. If you want more items added, just leave a comment that sp
 
 The following shops have the listed items added to them.
 
-#### Robin (Carpenter)
+#### Robin (Carpenter Shop)
+
+Items:
 
 - Clay
 - Hardwood
-- Battery Pack 
+- Battery Pack
+- Lightning Rod
+- Chest
+- Big Chest
+- Stone Chest
+- Big Stone Chest
 
-#### Clint (Blacksmith)
+Machines:
+
+- Preserves Jar
+- Cask
+- Keg
+- Bee House
+- Farm Computer
+- Solar Panel
+- Wood Chipper
+- Deconstructor
+- Hopper
+
+#### Marnie (Animal Shop)
+
+Machines:
+
+- Auto Petter
+- Cheese Press
+- Mayonnaise Machine
+- Loom
+- Oil Maker
+- Ostrich Incubator
+
+#### Clint (Blacksmith Shop)
+
+Items:
 
 - Iridium Ore
 - Copper Bar
@@ -26,7 +58,17 @@ The following shops have the listed items added to them.
 - Iridium Bar
 - Artifact Trove
 
+Machines:
+
+- Furnace
+- Heavy Furnace
+- Geode Crusher
+- Charcoal Kiln
+- Crystalarium
+
 #### Willy (Fish Shop)
+
+Items:
 
 - Cave Jelly
 - River Jelly
@@ -35,7 +77,16 @@ The following shops have the listed items added to them.
 - Green Algae
 - White Algae
 
+Machines:
+
+- Fish Smoker
+- Recycling Machine
+- Worm Bin
+- Deluxe Worm Bin
+
 #### Pierre (Seed Shop)
+
+Items:
 
 - Fiber
 - Pine Tar
@@ -45,7 +96,13 @@ The following shops have the listed items added to them.
 - Ancient Seeds (available all seasons except Winter)
 - Rare Seeds (only available in Spring)
 
+Machines:
+
+- Seed Maker
+
 #### Krobus (Shadow Shop)
+
+Items:
 
 - Bat Wings
 - Solar Essence
@@ -56,6 +113,17 @@ The following shops have the listed items added to them.
 - Ostrich Egg
 - Star Shards
 - Prismatic Shard
+
+Machines:
+
+- Slime Incubator
+- Slime Egg Press
+
+#### Dwarf (Mine Shop)
+
+Items:
+
+- Cinder Shards
 
 #### Support
 

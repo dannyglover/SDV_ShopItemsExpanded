@@ -2,377 +2,1030 @@
     "Format": "2.0.0",
     "ConfigSchema": {
         //
-		//Shop - Robin (Carpenter)
+		// Robin (Carpenter Shop) - Items
 		//
 		"Clay Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Clay to the shop (if enabled).",
-			"Section": "Shop - Robin (Carpenter)"
+			"Section": "Robin (Carpenter Shop): Items"
 		},
         "Clay Price": {
             "AllowMultiple": false,
             "Default": 50,
-            "Section": "Shop - Robin (Carpenter)"
+            "Section": "Robin (Carpenter Shop): Items"
         },
         "Hardwood Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Hardwood to the shop (if enabled).",
-			"Section": "Shop - Robin (Carpenter)"
+			"Section": "Robin (Carpenter Shop): Items"
 		},
         "Hardwood Price": {
             "AllowMultiple": false,
             "Default": 80,
-            "Section": "Shop - Robin (Carpenter)"
+            "Section": "Robin (Carpenter Shop): Items"
         },
         "Battery Pack Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Battery Packs to the shop (if enabled).",
-			"Section": "Shop - Robin (Carpenter)"
+			"Section": "Robin (Carpenter Shop): Items"
 		},
         "Battery Pack Price": {
             "AllowMultiple": false,
             "Default": 800,
-            "Section": "Shop - Robin (Carpenter)"
+            "Section": "Robin (Carpenter Shop): Items"
+        },
+        "Lightning Rod Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Lightning Rods to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Lightning Rod Price": {
+            "AllowMultiple": false,
+            "Default": 700,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Chest Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Chests to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Chest Price": {
+            "AllowMultiple": false,
+            "Default": 200,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Big Chest Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Big Chests to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Big Chest Price": {
+            "AllowMultiple": false,
+            "Default": 500,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Stone Chest Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Stone Chests to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Stone Chest Price": {
+            "AllowMultiple": false,
+            "Default": 350,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Big Stone Chest Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Big Stone Chests to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Big Stone Chest Price": {
+            "AllowMultiple": false,
+            "Default": 800,
+            "Section": "Robin (Carpenter Shop): Machines"
         },
         //
-		//Shop - Clint (Blacksmith)
+		// Robin (Carpenter Shop) - Machines
+		//
+		"Preserves Jar Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Preserves Jars to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Preserves Jar Price": {
+            "AllowMultiple": false,
+            "Default": 5000,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Cask Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Casks to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Cask Price": {
+            "AllowMultiple": false,
+            "Default": 8000,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Keg Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Kegs to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Keg Price": {
+            "AllowMultiple": false,
+            "Default": 5000,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Bee House Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Bee Houses to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Bee House Price": {
+            "AllowMultiple": false,
+            "Default": 1000,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Farm Computer Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Farm Computers to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Farm Computer Price": {
+            "AllowMultiple": false,
+            "Default": 3500,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Solar Panel Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Solar Panels to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Solar Panel Price": {
+            "AllowMultiple": false,
+            "Default": 1000,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Wood Chipper Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Wood Chippers to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Wood Chipper Price": {
+            "AllowMultiple": false,
+            "Default": 5000,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Deconstructor Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Deconstructors to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Deconstructor Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        "Hopper Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Hoppers to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Robin (Carpenter Shop): Machines"
+		},
+        "Hopper Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Robin (Carpenter Shop): Machines"
+        },
+        //
+		// Marnie (Animal Shop) - Machines
+		//
+		"Auto Petter Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Auto Petters to the shop (if enabled).",
+			"Section": "Marnie (Animal Shop): Machines"
+		},
+        "Auto Petter Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Marnie (Animal Shop): Machines"
+        },
+        "Cheese Press Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Cheese Presses to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Marnie (Animal Shop): Machines"
+		},
+        "Cheese Press Price": {
+            "AllowMultiple": false,
+            "Default": 4000,
+            "Section": "Marnie (Animal Shop): Machines"
+        },
+        "Mayonnaise Machine Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Mayonnaise Machines to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Marnie (Animal Shop): Machines"
+		},
+        "Mayonnaise Machine Price": {
+            "AllowMultiple": false,
+            "Default": 4000,
+            "Section": "Marnie (Animal Shop): Machines"
+        },
+        "Loom Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Looms to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Marnie (Animal Shop): Machines"
+		},
+        "Loom Price": {
+            "AllowMultiple": false,
+            "Default": 2500,
+            "Section": "Marnie (Animal Shop): Machines"
+        },
+        "Oil Maker Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Oil Makers to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Marnie (Animal Shop): Machines"
+		},
+        "Oil Maker Price": {
+            "AllowMultiple": false,
+            "Default": 8000,
+            "Section": "Marnie (Animal Shop): Machines"
+        },
+        "Ostrich Incubator Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Ostrich Incubators to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Marnie (Animal Shop): Machines"
+		},
+        "Ostrich Incubator Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Marnie (Animal Shop): Machines"
+        },
+        //
+		// Clint (Blacksmith Shop) - Items
 		//
 		"Iridium Ore Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Iridium Ore to the shop (if enabled).",
-			"Section": "Shop - Clint (Blacksmith)"
+			"Section": "Clint (Blacksmith Shop): Items"
 		},
         "Iridium Ore Price": {
             "AllowMultiple": false,
             "Default": 250,
-            "Section": "Shop - Clint (Blacksmith)"
+            "Section": "Clint (Blacksmith Shop): Items"
         },
         "Copper Bar Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Copper Bars to the shop (if enabled).",
-			"Section": "Shop - Clint (Blacksmith)"
+			"Section": "Clint (Blacksmith Shop): Items"
 		},
         "Copper Bar Price": {
             "AllowMultiple": false,
             "Default": 150,
-            "Section": "Shop - Clint (Blacksmith)"
+            "Section": "Clint (Blacksmith Shop): Items"
         },
         "Iron Bar Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Iron Bars to the shop (if enabled).",
-			"Section": "Shop - Clint (Blacksmith)"
+			"Section": "Clint (Blacksmith Shop): Items"
 		},
         "Iron Bar Price": {
             "AllowMultiple": false,
             "Default": 350,
-            "Section": "Shop - Clint (Blacksmith)"
+            "Section": "Clint (Blacksmith Shop): Items"
         },
         "Gold Bar Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Gold Bars to the shop (if enabled).",
-			"Section": "Shop - Clint (Blacksmith)"
+			"Section": "Clint (Blacksmith Shop): Items"
 		},
         "Gold Bar Price": {
             "AllowMultiple": false,
             "Default": 550,
-            "Section": "Shop - Clint (Blacksmith)"
+            "Section": "Clint (Blacksmith Shop): Items"
         },
         "Refined Quartz Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Refined Quartz Bars to the shop (if enabled).",
-			"Section": "Shop - Clint (Blacksmith)"
+			"Section": "Clint (Blacksmith Shop): Items"
 		},
 		"Refined Quartz Price": {
             "AllowMultiple": false,
             "Default": 750,
-            "Section": "Shop - Clint (Blacksmith)"
+            "Section": "Clint (Blacksmith Shop): Items"
         },
         "Iridium Bar Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Iridium Bars to the shop (if enabled).",
-			"Section": "Shop - Clint (Blacksmith)"
+			"Section": "Clint (Blacksmith Shop): Items"
 		},
         "Iridium Bar Price": {
             "AllowMultiple": false,
             "Default": 1200,
-            "Section": "Shop - Clint (Blacksmith)"
+            "Section": "Clint (Blacksmith Shop): Items"
         },
         "Artifact Trove Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Artifiact Troves to the shop (if enabled).",
-			"Section": "Shop - Clint (Blacksmith)"
+			"Section": "Clint (Blacksmith Shop): Items"
 		},
         "Artifact Trove Price": {
             "AllowMultiple": false,
             "Default": 5000,
-            "Section": "Shop - Clint (Blacksmith)"
+            "Section": "Clint (Blacksmith Shop): Items"
         },
         //
-        //Shop - Willy (Fish Shop)
+		// Clint (Blacksmith Shop) - Machines
+		//
+		"Furnace Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Furnaces to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Clint (Blacksmith Shop): Machines"
+		},
+        "Furnace Price": {
+            "AllowMultiple": false,
+            "Default": 800,
+            "Section": "Clint (Blacksmith Shop): Machines"
+        },
+        "Heavy Furnace Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Heavy Furnaces to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Clint (Blacksmith Shop): Machines"
+		},
+        "Heavy Furnace Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Clint (Blacksmith Shop): Machines"
+        },
+        "Geode Crusher Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Geode Crushers to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Clint (Blacksmith Shop): Machines"
+		},
+        "Geode Crusher Price": {
+            "AllowMultiple": false,
+            "Default": 8000,
+            "Section": "Clint (Blacksmith Shop): Machines"
+        },
+        "Charcoal Kiln Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Charcoal Kilns to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Clint (Blacksmith Shop): Machines"
+		},
+        "Charcoal Kiln Price": {
+            "AllowMultiple": false,
+            "Default": 4000,
+            "Section": "Clint (Blacksmith Shop): Machines"
+        },
+        "Crystalarium Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Crystalariums to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Clint (Blacksmith Shop): Machines"
+		},
+        "Crystalarium Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Clint (Blacksmith Shop): Machines"
+        },
+        //
+        // Willy (Fish Shop) - Items
         //
         "Cave Jelly Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Cave Jelly to the shop (if enabled).",
-			"Section": "Shop - Willy (Fish Shop)"
+			"Section": "Willy (Fish Shop): Items"
 		},
         "Cave Jelly Price": {
             "AllowMultiple": false,
             "Default": 150,
-            "Section": "Shop - Willy (Fish Shop)"
+            "Section": "Willy (Fish Shop): Items"
         },
         "River Jelly Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds River Jelly to the shop (if enabled).",
-			"Section": "Shop - Willy (Fish Shop)"
+			"Section": "Willy (Fish Shop): Items"
 		},
         "River Jelly Price": {
             "AllowMultiple": false,
             "Default": 100,
-            "Section": "Shop - Willy (Fish Shop)"
+            "Section": "Willy (Fish Shop): Items"
         },
         "Sea Jelly Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Sea Jelly to the shop (if enabled).",
-			"Section": "Shop - Willy (Fish Shop)"
+			"Section": "Willy (Fish Shop): Items"
 		},
         "Sea Jelly Price": {
             "AllowMultiple": false,
             "Default": 100,
-            "Section": "Shop - Willy (Fish Shop)"
+            "Section": "Willy (Fish Shop): Items"
         },
         "Seaweed Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Seaweed to the shop (if enabled).",
-			"Section": "Shop - Willy (Fish Shop)"
+			"Section": "Willy (Fish Shop): Items"
 		},
         "Seaweed Price": {
             "AllowMultiple": false,
             "Default": 40,
-            "Section": "Shop - Willy (Fish Shop)"
+            "Section": "Willy (Fish Shop): Items"
         },
         "Green Algae Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Green Algae to the shop (if enabled).",
-			"Section": "Shop - Willy (Fish Shop)"
+			"Section": "Willy (Fish Shop): Items"
 		},
         "Green Algae Price": {
             "AllowMultiple": false,
             "Default": 180,
-            "Section": "Shop - Willy (Fish Shop)"
+            "Section": "Willy (Fish Shop): Items"
         },
         "White Algae Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds White Algae to the shop (if enabled).",
-			"Section": "Shop - Willy (Fish Shop)"
+			"Section": "Willy (Fish Shop): Items"
 		},
         "White Algae Price": {
             "AllowMultiple": false,
             "Default": 180,
-            "Section": "Shop - Willy (Fish Shop)"
+            "Section": "Willy (Fish Shop): Items"
         },
         //
-		//Shop - Pierre (Seed Shop)
+        // Willy (Fish Shop) - Machines
+        //
+        "Fish Smoker Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Fish Smokers to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Willy (Fish Shop): Machines"
+		},
+        "Fish Smoker Price": {
+            "AllowMultiple": false,
+            "Default": 5000,
+            "Section": "Willy (Fish Shop): Machines"
+        },
+        "Recycling Machine Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Recycling Machines to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Willy (Fish Shop): Machines"
+		},
+        "Recycling Machine Price": {
+            "AllowMultiple": false,
+            "Default": 3500,
+            "Section": "Willy (Fish Shop): Machines"
+        },
+        "Worm Bin Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Worm Bins to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Willy (Fish Shop): Machines"
+		},
+        "Worm Bin Price": {
+            "AllowMultiple": false,
+            "Default": 1500,
+            "Section": "Willy (Fish Shop): Machines"
+        },
+        "Deluxe Worm Bin Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Deluxe Worm Bins to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Willy (Fish Shop): Machines"
+		},
+        "Deluxe Worm Bin Price": {
+            "AllowMultiple": false,
+            "Default": 3000,
+            "Section": "Willy (Fish Shop): Machines"
+        },
+        //
+		// Pierre (Seed Shop) - Items
 		//
 		"Fiber Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Fiber to the shop (if enabled).",
-			"Section": "Shop - Pierre (Seed Shop)"
+			"Section": "Pierre (Seed Shop): Items"
 		},
         "Fiber Price": {
             "AllowMultiple": false,
             "Default": 40,
-            "Section": "Shop - Pierre (Seed Shop)"
+            "Section": "Pierre (Seed Shop): Items"
         },
         "Pine Tar Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Pine Tar to the shop (if enabled).",
-			"Section": "Shop - Pierre (Seed Shop)"
+			"Section": "Pierre (Seed Shop): Items"
 		},
         "Pine Tar Price": {
             "AllowMultiple": false,
             "Default": 350,
-            "Section": "Shop - Pierre (Seed Shop)"
+            "Section": "Pierre (Seed Shop): Items"
         },
         "Oak Resin Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Oak Resin to the shop (if enabled).",
-			"Section": "Shop - Pierre (Seed Shop)"
+			"Section": "Pierre (Seed Shop): Items"
 		},
         "Oak Resin Price": {
             "AllowMultiple": false,
             "Default": 350,
-            "Section": "Shop - Pierre (Seed Shop)"
+            "Section": "Pierre (Seed Shop): Items"
         },
         "Strawberry Seeds Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Strawberry Seeds to the shop (if enabled). Only available in the Spring season.",
-			"Section": "Shop - Pierre (Seed Shop)"
+			"Section": "Pierre (Seed Shop): Items"
 		},
         "Strawberry Seeds Price": {
             "AllowMultiple": false,
             "Default": 150,
-            "Section": "Shop - Pierre (Seed Shop)"
+            "Section": "Pierre (Seed Shop): Items"
         },
         "Winter Seeds Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Winter Seeds to the shop (if enabled) - Only available in the Winter season.",
-			"Section": "Shop - Pierre (Seed Shop)"
+			"Section": "Pierre (Seed Shop): Items"
 		},
         "Winter Seeds Price": {
             "AllowMultiple": false,
             "Default": 40,
-            "Section": "Shop - Pierre (Seed Shop)"
+            "Section": "Pierre (Seed Shop): Items"
         },
         "Ancient Seeds Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Ancient Seeds to the shop (if enabled) - Available all seasons except Winter.",
-			"Section": "Shop - Pierre (Seed Shop)"
+			"Section": "Pierre (Seed Shop): Items"
 		},
         "Ancient Seeds Price": {
             "AllowMultiple": false,
             "Default": 1000,
-            "Section": "Shop - Pierre (Seed Shop)"
+            "Section": "Pierre (Seed Shop): Items"
         },
         "Rare Seeds Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Rare Seeds to the shop (if enabled). Only available in the Spring season.",
-			"Section": "Shop - Pierre (Seed Shop)"
+			"Section": "Pierre (Seed Shop): Items"
 		},
         "Rare Seeds Price": {
             "AllowMultiple": false,
             "Default": 1500,
-            "Section": "Shop - Pierre (Seed Shop)"
+            "Section": "Pierre (Seed Shop): Items"
         },
         //
-		//Shop - Krobus (Shadow Shop)
+		// Pierre (Seed Shop) - Machines
+		//
+		"Seed Maker Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Seed Makers to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Pierre (Seed Shop): Machines"
+		},
+        "Seed Maker Price": {
+            "AllowMultiple": false,
+            "Default": 3000,
+            "Section": "Pierre (Seed Shop): Machines"
+        },
+        //
+		// Krobus (Shadow Shop) - Items
 		//
 		"Bat Wings Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Bat Wings to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Bat Wings Price": {
             "AllowMultiple": false,
             "Default": 80,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
         },
         "Solar Essence Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Solar Essence to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Solar Essence Price": {
             "AllowMultiple": false,
             "Default": 50,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
         },
         "Void Essence Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Void Essence to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Void Essence Price": {
             "AllowMultiple": false,
             "Default": 50,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
         },
         "Cloth Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Cloth to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Cloth Price": {
             "AllowMultiple": false,
             "Default": 600,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
         },
         "Iridium Sprinkler Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Iridium Spinklers to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Iridium Sprinkler Price": {
             "AllowMultiple": false,
             "Default": 10000,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
         },
         "Dinosaur Egg Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Dinosaur Eggs to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Dinosaur Egg Price": {
             "AllowMultiple": false,
             "Default": 5000,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
         },
         "Ostrich Egg Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Ostrich Eggs to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Ostrich Egg Price": {
             "AllowMultiple": false,
             "Default": 5000,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
         },
         "Star Shards Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Star Shards to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Star Shards Price": {
             "AllowMultiple": false,
             "Default": 800,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
         },
         "Prismatic Shard Enabled": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds Prismatic Shards to the shop (if enabled).",
-			"Section": "Shop - Krobus (Shadow Shop)"
+			"Section": "Krobus (Shadow Shop): Items"
 		},
         "Prismatic Shard Price": {
             "AllowMultiple": false,
             "Default": 50000,
-            "Section": "Shop - Krobus (Shadow Shop)"
+            "Section": "Krobus (Shadow Shop): Items"
+        },
+        //
+		// Krobus (Shadow Shop) - Machines
+		//
+        "Slime Incubator Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Slime Incubators to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Krobus (Shadow Shop): Machines"
+		},
+        "Slime Incubator Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Krobus (Shadow Shop): Machines"
+        },
+        "Slime Egg Press Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Slime Egg Press to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Krobus (Shadow Shop): Machines"
+		},
+        "Slime Egg Press Price": {
+            "AllowMultiple": false,
+            "Default": 8000,
+            "Section": "Krobus (Shadow Shop): Machines"
+        },
+        //
+		// Dwarf (Mine Shop) - Items
+		//
+		"Cinder Shards Enabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds Cinder Shards to the shop (if enabled AND the recipe has been learned/unlocked).",
+			"Section": "Dwarf (Mine Shop): Items"
+		},
+        "Cinder Shards Price": {
+            "AllowMultiple": false,
+            "Default": 400,
+            "Section": "Dwarf (Mine Shop): Items"
         },
     },
     "Changes": [
         //
-		//Shop - Robin (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		// Robin (Carpenter Shop) - Machines
 		//
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Hopper Enabled": true,
+                "HasCraftingRecipe": "Hopper",
+            },
+            "Entries": {
+                "Add.ModId_Hopper": {
+                    "Id": "Add.ModId_Hopper",
+                    "ItemId": "(BC)275",
+                    "Price": "{{Hopper Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Hopper", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Deconstructor Enabled": true,
+                "HasCraftingRecipe": "Deconstructor",
+            },
+            "Entries": {
+                "Add.ModId_Deconstructor": {
+                    "Id": "Add.ModId_Deconstructor",
+                    "ItemId": "(BC)265",
+                    "Price": "{{Deconstructor Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Deconstructor", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Wood Chipper Enabled": true,
+                "HasCraftingRecipe": "Wood Chipper",
+            },
+            "Entries": {
+                "Add.ModId_WoodChipper": {
+                    "Id": "Add.ModId_WoodChipper",
+                    "ItemId": "(BC)211",
+                    "Price": "{{Wood Chipper Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WoodChipper", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Solar Panel Enabled": true,
+                "HasCraftingRecipe": "Solar Panel",
+            },
+            "Entries": {
+                "Add.ModId_SolarPanel": {
+                    "Id": "Add.ModId_SolarPanel",
+                    "ItemId": "(BC)231",
+                    "Price": "{{Solar Panel Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SolarPanel", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Farm Computer Enabled": true,
+                "HasCraftingRecipe": "Farm Computer",
+            },
+            "Entries": {
+                "Add.ModId_FarmComputer": {
+                    "Id": "Add.ModId_FarmComputer",
+                    "ItemId": "(BC)239",
+                    "Price": "{{Farm Computer Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FarmComputer", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Bee House Enabled": true,
+                "HasCraftingRecipe": "Bee House",
+            },
+            "Entries": {
+                "Add.ModId_BeeHouse": {
+                    "Id": "Add.ModId_BeeHouse",
+                    "ItemId": "(BC)10",
+                    "Price": "{{Bee House Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BeeHouse", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Keg Enabled": true,
+                "HasCraftingRecipe": "Keg",
+            },
+            "Entries": {
+                "Add.ModId_Keg": {
+                    "Id": "Add.ModId_Keg",
+                    "ItemId": "(BC)12",
+                    "Price": "{{Keg Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Keg", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Cask Enabled": true,
+                "HasCraftingRecipe": "Cask",
+            },
+            "Entries": {
+                "Add.ModId_Cask": {
+                    "Id": "Add.ModId_Cask",
+                    "ItemId": "(BC)163",
+                    "Price": "{{Cask Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Cask", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Preserves Jar Enabled": true,
+                "HasCraftingRecipe": "Preserves Jar",
+            },
+            "Entries": {
+                "Add.ModId_PreservesJar": {
+                    "Id": "Add.ModId_PreservesJar",
+                    "ItemId": "(BC)15",
+                    "Price": "{{Preserves Jar Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PreservesJar", "ToPosition": "Top" },
+            ]
+        },
+        //
+		// Robin (Carpenter Shop) - Items
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Big Stone Chest Enabled": true,
+                "HasCraftingRecipe": "Big Stone Chest",
+            },
+            "Entries": {
+                "Add.ModId_BigStoneChest": {
+                    "Id": "Add.ModId_BigStoneChest",
+                    "ItemId": "(BC)BigStoneChest",
+                    "Price": "{{Big Stone Chest Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BigStoneChest", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Stone Chest Enabled": true,
+                "HasCraftingRecipe": "Stone Chest",
+            },
+            "Entries": {
+                "Add.ModId_StoneChest": {
+                    "Id": "Add.ModId_StoneChest",
+                    "ItemId": "(BC)232",
+                    "Price": "{{Stone Chest Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StoneChest", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Big Chest Enabled": true,
+                "HasCraftingRecipe": "Big Chest",
+            },
+            "Entries": {
+                "Add.ModId_BigChest": {
+                    "Id": "Add.ModId_BigChest",
+                    "ItemId": "(BC)BigChest",
+                    "Price": "{{Big Chest Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BigChest", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Chest Enabled": true,
+                "HasCraftingRecipe": "Chest",
+            },
+            "Entries": {
+                "Add.ModId_Chest": {
+                    "Id": "Add.ModId_Chest",
+                    "ItemId": "(BC)130",
+                    "Price": "{{Chest Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Chest", "ToPosition": "Top" },
+            ]
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Lightning Rod Enabled": true,
+                "HasCraftingRecipe": "Lightning Rod",
+            },
+            "Entries": {
+                "Add.ModId_LightningRod": {
+                    "Id": "Add.ModId_LightningRod",
+                    "ItemId": "(BC)9",
+                    "Price": "{{Lightning Rod Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_LightningRod", "ToPosition": "Top" },
+            ]
+        },
 		{
             "Action": "EditData",
             "Target": "Data/Shops",
@@ -428,7 +1081,221 @@
             ]
         },
         //
-		//Shop - Clint (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		// Marnie (Animal Shop) - Machines
+		//
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AnimalShop", "Items" ],
+            "When": {
+                "Ostrich Incubator Enabled": true,
+                "HasCraftingRecipe": "Ostrich Incubator",
+            },
+            "Entries": {
+                "Add.ModId_OstrichIncubator": {
+                    "Id": "Add.ModId_OstrichIncubator",
+                    "ItemId": "(BC)254",
+                    "Price": "{{Ostrich Incubator Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_OstrichIncubator", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AnimalShop", "Items" ],
+            "When": {
+                "Oil Maker Enabled": true,
+                "HasCraftingRecipe": "Oil Maker",
+            },
+            "Entries": {
+                "Add.ModId_OilMaker": {
+                    "Id": "Add.ModId_OilMaker",
+                    "ItemId": "(BC)19",
+                    "Price": "{{Oil Maker Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_OilMaker", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AnimalShop", "Items" ],
+            "When": {
+                "Loom Enabled": true,
+                "HasCraftingRecipe": "Loom",
+            },
+            "Entries": {
+                "Add.ModId_Loom": {
+                    "Id": "Add.ModId_Loom",
+                    "ItemId": "(BC)17",
+                    "Price": "{{Loom Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Loom", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AnimalShop", "Items" ],
+            "When": {
+                "Mayonnaise Machine Enabled": true,
+                "HasCraftingRecipe": "Mayonnaise Machine",
+            },
+            "Entries": {
+                "Add.ModId_MayonnaiseMachine": {
+                    "Id": "Add.ModId_MayonnaiseMachine",
+                    "ItemId": "(BC)24",
+                    "Price": "{{Mayonnaise Machine Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_MayonnaiseMachine", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AnimalShop", "Items" ],
+            "When": {
+                "Cheese Press Enabled": true,
+                "HasCraftingRecipe": "Cheese Press",
+            },
+            "Entries": {
+                "Add.ModId_CheesePress": {
+                    "Id": "Add.ModId_CheesePress",
+                    "ItemId": "(BC)16",
+                    "Price": "{{Cheese Press Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_CheesePress", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AnimalShop", "Items" ],
+            "When": {
+                "Auto Petter Enabled": true,
+            },
+            "Entries": {
+                "Add.ModId_AutoPetter": {
+                    "Id": "Add.ModId_AutoPetter",
+                    "ItemId": "(BC)272",
+                    "Price": "{{Auto Petter Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_AutoPetter", "ToPosition": "Top" },
+            ]
+        },
+        //
+		// Clint (Blacksmith Shop) - Machines
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Crystalarium Enabled": true,
+                "HasCraftingRecipe": "Crystalarium",
+            },
+            "Entries": {
+                "Add.ModId_Crystalarium": {
+                    "Id": "Add.ModId_Crystalarium",
+                    "ItemId": "(BC)21",
+                    "Price": "{{Crystalarium Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Crystalarium", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Charcoal Kiln Enabled": true,
+                "HasCraftingRecipe": "Charcoal Kiln",
+            },
+            "Entries": {
+                "Add.ModId_CharcoalKiln": {
+                    "Id": "Add.ModId_CharcoalKiln",
+                    "ItemId": "(BC)114",
+                    "Price": "{{Charcoal Kiln Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_CharcoalKiln", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Geode Crusher Enabled": true,
+                "HasCraftingRecipe": "Geode Crusher",
+            },
+            "Entries": {
+                "Add.ModId_GeodeCrusher": {
+                    "Id": "Add.ModId_GeodeCrusher",
+                    "ItemId": "(BC)182",
+                    "Price": "{{Geode Crusher Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GeodeCrusher", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Heavy Furnace Enabled": true,
+                "HasCraftingRecipe": "Heavy Furnace",
+            },
+            "Entries": {
+                "Add.ModId_HeavyFurnace": {
+                    "Id": "Add.ModId_HeavyFurnace",
+                    "ItemId": "(BC)HeavyFurnace",
+                    "Price": "{{Heavy Furnace Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_HeavyFurnace", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Furnace Enabled": true,
+                "HasCraftingRecipe": "Furnace",
+            },
+            "Entries": {
+                "Add.ModId_Furnace": {
+                    "Id": "Add.ModId_Furnace",
+                    "ItemId": "(BC)13",
+                    "Price": "{{Furnace Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Furnace", "ToPosition": "Top" },
+            ]
+        },
+        //
+		// Clint (Blacksmith Shop) - Items
 		//
 		{
             "Action": "EditData",
@@ -557,7 +1424,86 @@
             ]
         },
         //
-		//Shop - Willy (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		// Willy (Fish Shop) - Machines
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Deluxe Worm Bin Enabled": true,
+                "HasCraftingRecipe": "Deluxe Worm Bin",
+            },
+            "Entries": {
+                "Add.ModId_DeluxeWormBin": {
+                    "Id": "Add.ModId_DeluxeWormBin",
+                    "ItemId": "(BC)DeluxeWormBin",
+                    "Price": "{{Deluxe Worm Bin Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DeluxeWormBin", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Worm Bin Enabled": true,
+                "HasCraftingRecipe": "Worm Bin",
+            },
+            "Entries": {
+                "Add.ModId_WormBin": {
+                    "Id": "Add.ModId_WormBin",
+                    "ItemId": "(BC)154",
+                    "Price": "{{Worm Bin Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WormBin", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Recycling Machine Enabled": true,
+                "HasCraftingRecipe": "Recycling Machine",
+            },
+            "Entries": {
+                "Add.ModId_RecyclingMachine": {
+                    "Id": "Add.ModId_RecyclingMachine",
+                    "ItemId": "(BC)20",
+                    "Price": "{{Recycling Machine Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RecyclingMachine", "ToPosition": "Top" },
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Fish Smoker Enabled": true,
+                "HasCraftingRecipe": "Fish Smoker",
+            },
+            "Entries": {
+                "Add.ModId_FishSmoker": {
+                    "Id": "Add.ModId_FishSmoker",
+                    "ItemId": "(BC)FishSmoker",
+                    "Price": "{{Fish Smoker Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FishSmoker", "ToPosition": "Top" },
+            ]
+        },
+        //
+		// Willy (Fish Shop) - Items
 		//
 		{
             "Action": "EditData",
@@ -668,7 +1614,29 @@
             ]
         },
         //
-		//Shop - Pierre (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		// Pierre (Seed Shop) - Machines
+		//
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Seed Maker Enabled": true,
+                "HasCraftingRecipe": "Seed Maker",
+            },
+            "Entries": {
+                "Add.ModId_SeedMaker": {
+                    "Id": "Add.ModId_SeedMaker",
+                    "ItemId": "(BC)25",
+                    "Price": "{{Seed Maker Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SeedMaker", "ToPosition": "Top" },
+            ]
+        },
+        //
+		// Pierre (Seed Shop) - Items
 		//
         {
             "Action": "EditData",
@@ -801,7 +1769,48 @@
             ]
         },
         //
-		//Shop - Krobus (items are defined in reverse order to the menu listing, so they appear in the expected positions in the shop menu (via the ToPosition param))
+		// Krobus (Shadow Shop) - Machines
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Slime Egg Press Enabled": true,
+                "HasCraftingRecipe": "Slime Egg-Press",
+            },
+            "Entries": {
+                "Add.ModId_SlimeEggPress": {
+                    "Id": "Add.ModId_SlimeEggPress",
+                    "ItemId": "(BC)158",
+                    "Price": "{{Slime Egg Press Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SlimeEggPress", "ToPosition": "Top" },
+            ]
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Slime Incubator Enabled": true,
+                "HasCraftingRecipe": "Slime Incubator",
+            },
+            "Entries": {
+                "Add.ModId_SlimeIncubator": {
+                    "Id": "Add.ModId_SlimeIncubator",
+                    "ItemId": "(BC)156",
+                    "Price": "{{Slime Incubator Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SlimeIncubator", "ToPosition": "Top" },
+            ]
+        },
+        //
+		// Krobus (Shadow Shop) - Items
 		//
 		{
             "Action": "EditData",
@@ -963,6 +1972,27 @@
             },
             "MoveEntries": [
                 { "Id": "Add.ModId_BatWings", "ToPosition": "Top" },
+            ]
+        },
+        //
+		// Dwarf (Mine Shop) - Items
+		//
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "When": {
+                "Cinder Shards Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_CinderShards": {
+                    "Id": "Add.ModId_CinderShards",
+                    "ItemId": "(O)848",
+                    "Price": "{{Cinder Shards Price}}",
+                },
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_CinderShards", "ToPosition": "Top" },
             ]
         },
     ]
