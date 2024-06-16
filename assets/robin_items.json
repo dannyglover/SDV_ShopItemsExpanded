@@ -1,0 +1,154 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Clay Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Clay": {
+                    "Id": "Add.ModId_Clay",
+                    "ItemId": "(O)330",
+                    "Price": "{{Clay Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Clay", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Hardwood Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Hardwood": {
+                    "Id": "Add.ModId_Hardwood",
+                    "ItemId": "(O)709",
+                    "Price": "{{Hardwood Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Hardwood", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Battery Pack Enabled": true,
+                "HasCraftingRecipe": "Battery Pack"
+            },
+            "Entries": {
+                "Add.ModId_BatteryPack": {
+                    "Id": "Add.ModId_BatteryPack",
+                    "ItemId": "(O)787",
+                    "Price": "{{Battery Pack Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BatteryPack", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Lightning Rod Enabled": true,
+                "HasCraftingRecipe": "Lightning Rod"
+            },
+            "Entries": {
+                "Add.ModId_LightningRod": {
+                    "Id": "Add.ModId_LightningRod",
+                    "ItemId": "(BC)9",
+                    "Price": "{{Lightning Rod Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_LightningRod", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Chest Enabled": true,
+                "HasCraftingRecipe": "Chest"
+            },
+            "Entries": {
+                "Add.ModId_Chest": {
+                    "Id": "Add.ModId_Chest",
+                    "ItemId": "(BC)130",
+                    "Price": "{{Chest Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Chest", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Big Chest Enabled": true,
+                "HasCraftingRecipe": "Big Chest"
+            },
+            "Entries": {
+                "Add.ModId_BigChest": {
+                    "Id": "Add.ModId_BigChest",
+                    "ItemId": "(BC)BigChest",
+                    "Price": "{{Big Chest Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BigChest", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Stone Chest Enabled": true,
+                "HasCraftingRecipe": "Stone Chest"
+            },
+            "Entries": {
+                "Add.ModId_StoneChest": {
+                    "Id": "Add.ModId_StoneChest",
+                    "ItemId": "(BC)232",
+                    "Price": "{{Stone Chest Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StoneChest", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Big Stone Chest Enabled": true,
+                "HasCraftingRecipe": "Big Stone Chest"
+            },
+            "Entries": {
+                "Add.ModId_BigStoneChest": {
+                    "Id": "Add.ModId_BigStoneChest",
+                    "ItemId": "(BC)BigStoneChest",
+                    "Price": "{{Big Stone Chest Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BigStoneChest", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

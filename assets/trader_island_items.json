@@ -1,0 +1,283 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Cinder Shards Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_CinderShards": {
+                    "Id": "Add.ModId_CinderShards",
+                    "ItemId": "(O)848",
+                    "Price": "{{Cinder Shards Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_CinderShards", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Dragons Teeth Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_DragonsTeeth": {
+                    "Id": "Add.ModId_DragonsTeeth",
+                    "ItemId": "(O)852",
+                    "Price": "{{Dragons Teeth Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DragonsTeeth", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Magma Cap Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_MagmaCap": {
+                    "Id": "Add.ModId_MagmaCap",
+                    "ItemId": "(O)852",
+                    "Price": "{{Magma Cap Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_MagmaCap", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Pineapple Seeds Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_PineappleSeeds": {
+                    "Id": "Add.ModId_PineappleSeeds",
+                    "ItemId": "(O)833",
+                    "Price": "{{Pineapple Seeds Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PineappleSeeds", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Banana Sapling Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_BananaSapling": {
+                    "Id": "Add.ModId_BananaSapling",
+                    "ItemId": "(O)69",
+                    "Price": "{{Banana Sapling Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BananaSapling", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Mango Sapling Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_MangoSapling": {
+                    "Id": "Add.ModId_MangoSapling",
+                    "ItemId": "(O)835",
+                    "Price": "{{Mango Sapling Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_MangoSapling", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Fossilized Leg Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_FossilizedLeg": {
+                    "Id": "Add.ModId_FossilizedLeg",
+                    "ItemId": "(O)823",
+                    "Price": "{{Fossilized Leg Price}}",
+                    "Stock": 2
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FossilizedLeg", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Fossilized Ribs Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_FossilizedRibs": {
+                    "Id": "Add.ModId_FossilizedRibs",
+                    "ItemId": "(O)824",
+                    "Price": "{{Fossilized Ribs Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FossilizedRibs", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Fossilized Skull Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_FossilizedSkull": {
+                    "Id": "Add.ModId_FossilizedSkull",
+                    "ItemId": "(O)820",
+                    "Price": "{{Fossilized Skull Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FossilizedSkull", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Fossilized Spine Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_FossilizedSpine": {
+                    "Id": "Add.ModId_FossilizedSpine",
+                    "ItemId": "(O)821",
+                    "Price": "{{Fossilized Spine Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FossilizedSpine", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Fossilized Tail Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_FossilizedTail": {
+                    "Id": "Add.ModId_FossilizedTail",
+                    "ItemId": "(O)822",
+                    "Price": "{{Fossilized Tail Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FossilizedTail", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Mummified Frog Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_MummifiedFrog": {
+                    "Id": "Add.ModId_MummifiedFrog",
+                    "ItemId": "(O)828",
+                    "Price": "{{Mummified Frog Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_MummifiedFrog", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Mummified Bat Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_MummifiedBat": {
+                    "Id": "Add.ModId_MummifiedBat",
+                    "ItemId": "(O)827",
+                    "Price": "{{Mummified Bat Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_MummifiedBat", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Snake Skull Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_SnakeSkull": {
+                    "Id": "Add.ModId_SnakeSkull",
+                    "ItemId": "(O)825",
+                    "Price": "{{Snake Skull Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SnakeSkull", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IslandTrade", "Items" ],
+            "When": {
+                "Snake Vertebrae Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_SnakeVertebrae": {
+                    "Id": "Add.ModId_SnakeVertebrae",
+                    "ItemId": "(O)826",
+                    "Price": "{{Snake Vertebrae Price}}",
+                    "Stock": 2
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SnakeVertebrae", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Fish Smoker Enabled": true,
+                "HasCraftingRecipe": "Fish Smoker"
+            },
+            "Entries": {
+                "Add.ModId_FishSmoker": {
+                    "Id": "Add.ModId_FishSmoker",
+                    "ItemId": "(BC)FishSmoker",
+                    "Price": "{{Fish Smoker Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FishSmoker", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Recycling Machine Enabled": true,
+                "HasCraftingRecipe": "Recycling Machine"
+            },
+            "Entries": {
+                "Add.ModId_RecyclingMachine": {
+                    "Id": "Add.ModId_RecyclingMachine",
+                    "ItemId": "(BC)20",
+                    "Price": "{{Recycling Machine Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RecyclingMachine", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Worm Bin Enabled": true,
+                "HasCraftingRecipe": "Worm Bin"
+            },
+            "Entries": {
+                "Add.ModId_WormBin": {
+                    "Id": "Add.ModId_WormBin",
+                    "ItemId": "(BC)154",
+                    "Price": "{{Worm Bin Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WormBin", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Deluxe Worm Bin Enabled": true,
+                "HasCraftingRecipe": "Deluxe Worm Bin"
+            },
+            "Entries": {
+                "Add.ModId_DeluxeWormBin": {
+                    "Id": "Add.ModId_DeluxeWormBin",
+                    "ItemId": "(BC)DeluxeWormBin",
+                    "Price": "{{Deluxe Worm Bin Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DeluxeWormBin", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

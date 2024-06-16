@@ -1,0 +1,170 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Iridium Ore Enabled": true,
+                "HasVisitedLocation": "SkullCave"
+            },
+            "Entries": {
+                "Add.ModId_IridiumOre": {
+                    "Id": "Add.ModId_IridiumOre",
+                    "ItemId": "(O)386",
+                    "Price": "{{Iridium Ore Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IridiumOre", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Radioactive Ore Enabled": true,
+                "HasVisitedLocation:": "QiNutRoom"
+            },
+            "Entries": {
+                "Add.ModId_RadioactiveOre": {
+                    "Id": "Add.ModId_RadioactiveOre",
+                    "ItemId": "(O)909",
+                    "Price": "{{Radioactive Ore Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RadioactiveOre", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Copper Bar Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_CopperBar": {
+                    "Id": "Add.ModId_CopperBar",
+                    "ItemId": "(O)334",
+                    "Price": "{{Copper Bar Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_CopperBar", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Iron Bar Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_IronBar": {
+                    "Id": "Add.ModId_IronBar",
+                    "ItemId": "(O)335",
+                    "Price": "{{Iron Bar Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IronBar", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Gold Bar Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_GoldBar": {
+                    "Id": "Add.ModId_GoldBar",
+                    "ItemId": "(O)336",
+                    "Price": "{{Gold Bar Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GoldBar", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Refined Quartz Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_RefinedQuartz": {
+                    "Id": "Add.ModId_RefinedQuartz",
+                    "ItemId": "(O)338",
+                    "Price": "{{Refined Quartz Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RefinedQuartz", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Iridium Bar Enabled": true,
+                "HasVisitedLocation": "SkullCave"
+            },
+            "Entries": {
+                "Add.ModId_IridiumBar": {
+                    "Id": "Add.ModId_IridiumBar",
+                    "ItemId": "(O)337",
+                    "Price": "{{Iridium Bar Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IridiumBar", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Radioactive Bar Enabled": true,
+                "HasVisitedLocation": "QiNutRoom"
+            },
+            "Entries": {
+                "Add.ModId_RadioactiveBar": {
+                    "Id": "Add.ModId_RadioactiveBar",
+                    "ItemId": "(O)910",
+                    "Price": "{{Radioactive Bar Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RadioactiveBar", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "When": {
+                "Artifact Trove Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_ArtifactTrove": {
+                    "Id": "Add.ModId_ArtifactTrove",
+                    "ItemId": "(O)275",
+                    "Price": "{{Artifact Trove Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_ArtifactTrove", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

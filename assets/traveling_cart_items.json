@@ -1,0 +1,824 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Dwarf Scroll I Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_DwarfScrollI": {
+                    "Id": "Add.ModId_DwarfScrollI",
+                    "ItemId": "(O)96",
+                    "Price": "{{Dwarf Scroll I Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DwarfScrollI", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Dwarf Scroll II Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_DwarfScrollII": {
+                    "Id": "Add.ModId_DwarfScrollII",
+                    "ItemId": "(O)97",
+                    "Price": "{{Dwarf Scroll II Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DwarfScrollII", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Dwarf Scroll III Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_DwarfScrollIII": {
+                    "Id": "Add.ModId_DwarfScrollIII",
+                    "ItemId": "(O)98",
+                    "Price": "{{Dwarf Scroll III Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DwarfScrollIII", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Dwarf Scroll IV Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_DwarfScrollIV": {
+                    "Id": "Add.ModId_DwarfScrollIV",
+                    "ItemId": "(O)99",
+                    "Price": "{{Dwarf Scroll IV Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DwarfScrollIV", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Chipped Amphora Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_ChippedAmphora": {
+                    "Id": "Add.ModId_ChippedAmphora",
+                    "ItemId": "(O)100",
+                    "Price": "{{Chipped Amphora Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_ChippedAmphora", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Arrowhead Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_Arrowhead": {
+                    "Id": "Add.ModId_Arrowhead",
+                    "ItemId": "(O)101",
+                    "Price": "{{Arrowhead Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Arrowhead", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Ancient Doll Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_AncientDoll": {
+                    "Id": "Add.ModId_AncientDoll",
+                    "ItemId": "(O)103",
+                    "Price": "{{Ancient Doll Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_AncientDoll", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Elvish Jewelry Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_ElvishJewelry": {
+                    "Id": "Add.ModId_ElvishJewelry",
+                    "ItemId": "(O)104",
+                    "Price": "{{Elvish Jewelry Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_ElvishJewelry", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Chewing Stick Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_ChewingStick": {
+                    "Id": "Add.ModId_ChewingStick",
+                    "ItemId": "(O)105",
+                    "Price": "{{Chewing Stick Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_ChewingStick", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Ornamental Fan Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_OrnamentalFan": {
+                    "Id": "Add.ModId_OrnamentalFan",
+                    "ItemId": "(O)106",
+                    "Price": "{{Ornamental Fan Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_OrnamentalFan", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Rare Disc Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_RareDisc": {
+                    "Id": "Add.ModId_RareDisc",
+                    "ItemId": "(O)108",
+                    "Price": "{{Rare Disc Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RareDisc", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Ancient Sword Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_AncientSword": {
+                    "Id": "Add.ModId_AncientSword",
+                    "ItemId": "(O)109",
+                    "Price": "{{Ancient Sword Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_AncientSword", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Rusty Spoon Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_RustySpoon": {
+                    "Id": "Add.ModId_RustySpoon",
+                    "ItemId": "(O)110",
+                    "Price": "{{Rusty Spoon Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RustySpoon", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Rusty Spur Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_RustySpur": {
+                    "Id": "Add.ModId_RustySpur",
+                    "ItemId": "(O)111",
+                    "Price": "{{Rusty Spur Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RustySpur", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Rusty Cog Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_RustyCog": {
+                    "Id": "Add.ModId_RustyCog",
+                    "ItemId": "(O)112",
+                    "Price": "{{Rusty Cog Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RustyCog", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Chicken Statue Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_ChickenStatue": {
+                    "Id": "Add.ModId_ChickenStatue",
+                    "ItemId": "(O)113",
+                    "Price": "{{Chicken Statue Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_ChickenStatue", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Ancient Seed Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_AncientSeed": {
+                    "Id": "Add.ModId_AncientSeed",
+                    "ItemId": "(O)114",
+                    "Price": "{{Ancient Seed Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_AncientSeed", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Prehistoric Tool Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_PrehistoricTool": {
+                    "Id": "Add.ModId_PrehistoricTool",
+                    "ItemId": "(O)115",
+                    "Price": "{{Prehistoric Tool Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrehistoricTool", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Dried Starfish Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_DriedStarfish": {
+                    "Id": "Add.ModId_DriedStarfish",
+                    "ItemId": "(O)116",
+                    "Price": "{{Dried Starfish Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DriedStarfish", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Anchor Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_Anchor": {
+                    "Id": "Add.ModId_Anchor",
+                    "ItemId": "(O)117",
+                    "Price": "{{Anchor Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Anchor", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Glass Shards Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_GlassShards": {
+                    "Id": "Add.ModId_GlassShards",
+                    "ItemId": "(O)118",
+                    "Price": "{{Glass Shards Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GlassShards", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Bone Flute Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_BoneFlute": {
+                    "Id": "Add.ModId_BoneFlute",
+                    "ItemId": "(O)119",
+                    "Price": "{{Bone Flute Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BoneFlute", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Prehistoric Handaxe Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_PrehistoricHandaxe": {
+                    "Id": "Add.ModId_PrehistoricHandaxe",
+                    "ItemId": "(O)120",
+                    "Price": "{{Prehistoric Handaxe Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrehistoricHandaxe", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Dwarvish Helm Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_DwarvishHelm": {
+                    "Id": "Add.ModId_DwarvishHelm",
+                    "ItemId": "(O)121",
+                    "Price": "{{Dwarvish Helm Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DwarvishHelm", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Dwarf Gadget Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_DwarfGadget": {
+                    "Id": "Add.ModId_DwarfGadget",
+                    "ItemId": "(O)122",
+                    "Price": "{{Dwarf Gadget Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DwarfGadget", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Ancient Drum Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_AncientDrum": {
+                    "Id": "Add.ModId_AncientDrum",
+                    "ItemId": "(O)123",
+                    "Price": "{{Ancient Drum Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_AncientDrum", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Golden Mask Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_GoldenMask": {
+                    "Id": "Add.ModId_GoldenMask",
+                    "ItemId": "(O)124",
+                    "Price": "{{Golden Mask Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GoldenMask", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Golden Relic Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_GoldenRelic": {
+                    "Id": "Add.ModId_GoldenRelic",
+                    "ItemId": "(O)125",
+                    "Price": "{{Golden Relic Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GoldenRelic", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Strange Doll Green Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_StrangeDollGreen": {
+                    "Id": "Add.ModId_StrangeDollGreen",
+                    "ItemId": "(O)126",
+                    "Price": "{{Strange Doll Green Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StrangeDollGreen", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Strange Doll Yellow Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_StrangeDollYellow": {
+                    "Id": "Add.ModId_StrangeDollYellow",
+                    "ItemId": "(O)127",
+                    "Price": "{{Strange Doll Yellow Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StrangeDollYellow", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Prehistoric Scapula Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_PrehistoricScapula": {
+                    "Id": "Add.ModId_PrehistoricScapula",
+                    "ItemId": "(O)579",
+                    "Price": "{{Prehistoric Scapula Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrehistoricScapula", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Prehistoric Tibia Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_PrehistoricTibia": {
+                    "Id": "Add.ModId_PrehistoricTibia",
+                    "ItemId": "(O)580",
+                    "Price": "{{Prehistoric Tibia Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrehistoricTibia", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Prehistoric Skull Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_PrehistoricSkull": {
+                    "Id": "Add.ModId_PrehistoricSkull",
+                    "ItemId": "(O)581",
+                    "Price": "{{Prehistoric Skull Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrehistoricSkull", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Skeletal Hand Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_SkeletalHand": {
+                    "Id": "Add.ModId_SkeletalHand",
+                    "ItemId": "(O)582",
+                    "Price": "{{Skeletal Hand Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SkeletalHand", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Prehistoric Rib Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_PrehistoricRib": {
+                    "Id": "Add.ModId_PrehistoricRib",
+                    "ItemId": "(O)583",
+                    "Price": "{{Prehistoric Rib Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrehistoricRib", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Prehistoric Vertebra Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_PrehistoricVertebra": {
+                    "Id": "Add.ModId_PrehistoricVertebra",
+                    "ItemId": "(O)584",
+                    "Price": "{{Prehistoric Vertebra Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrehistoricVertebra", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Skeletal Tail Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_SkeletalTail": {
+                    "Id": "Add.ModId_SkeletalTail",
+                    "ItemId": "(O)585",
+                    "Price": "{{Skeletal Tail Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SkeletalTail", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Nautilus Fossil Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_NautilusFossil": {
+                    "Id": "Add.ModId_NautilusFossil",
+                    "ItemId": "(O)586",
+                    "Price": "{{Nautilus Fossil Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_NautilusFossil", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Amphibian Fossil Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_AmphibianFossil": {
+                    "Id": "Add.ModId_AmphibianFossil",
+                    "ItemId": "(O)587",
+                    "Price": "{{Amphibian Fossil Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_AmphibianFossil", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Palm Fossil Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_PalmFossil": {
+                    "Id": "Add.ModId_PalmFossil",
+                    "ItemId": "(O)588",
+                    "Price": "{{Palm Fossil Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PalmFossil", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "When": {
+                "Trilobite Enabled": true,
+                "HasFlag |contains=museumComplete": false
+            },
+            "Entries": {
+                "Add.ModId_Trilobite": {
+                    "Id": "Add.ModId_Trilobite",
+                    "ItemId": "(O)589",
+                    "Price": "{{Trilobite Price}}",
+                    "Stock": 1
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Trilobite", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

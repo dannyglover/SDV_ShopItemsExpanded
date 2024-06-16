@@ -1,0 +1,171 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Bat Wings Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_BatWings": {
+                    "Id": "Add.ModId_BatWings",
+                    "ItemId": "(O)767",
+                    "Price": "{{Bat Wings Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BatWings", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Solar Essence Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_SolarEssence": {
+                    "Id": "Add.ModId_SolarEssence",
+                    "ItemId": "(O)768",
+                    "Price": "{{Solar Essence Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SolarEssence", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Void Essence Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_VoidEssence": {
+                    "Id": "Add.ModId_VoidEssence",
+                    "ItemId": "(O)769",
+                    "Price": "{{Void Essence Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_VoidEssence", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Cloth Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Cloth": {
+                    "Id": "Add.ModId_Cloth",
+                    "ItemId": "(O)428",
+                    "Price": "{{Cloth Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Cloth", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Iridium Sprinkler Enabled": true,
+                "HasCraftingRecipe": "Iridium Sprinkler"
+            },
+            "Entries": {
+                "Add.ModId_IridiumSprinkler": {
+                    "Id": "Add.ModId_IridiumSprinkler",
+                    "ItemId": "(O)645",
+                    "Price": "{{Iridium Sprinkler Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IridiumSprinkler", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Dinosaur Egg Enabled": true,
+                "HasVisitedLocation": "SkullCave"
+            },
+            "Entries": {
+                "Add.ModId_DinosaurEgg": {
+                    "Id": "Add.ModId_DinosaurEgg",
+                    "ItemId": "(O)107",
+                    "Price": "{{Dinosaur Egg Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DinosaurEgg", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Ostrich Egg Enabled": true,
+                "HasVisitedLocation": "SkullCave"
+            },
+            "Entries": {
+                "Add.ModId_OstrichEgg": {
+                    "Id": "Add.ModId_OstrichEgg",
+                    "ItemId": "(O)289",
+                    "Price": "{{Ostrich Egg Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_OstrichEgg", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Star Shards Enabled": true,
+                "HasVisitedLocation": "Mine"
+            },
+            "Entries": {
+                "Add.ModId_StarShards": {
+                    "Id": "Add.ModId_StarShards",
+                    "ItemId": "(O)578",
+                    "Price": "{{Star Shards Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StarShards", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "When": {
+                "Prismatic Shard Enabled": true,
+                "HasVisitedLocation": "SkullCave"
+            },
+            "Entries": {
+                "Add.ModId_PrismaticShard": {
+                    "Id": "Add.ModId_PrismaticShard",
+                    "ItemId": "(O)74",
+                    "Price": "{{Prismatic Shard Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PrismaticShard", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

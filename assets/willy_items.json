@@ -1,0 +1,112 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Cave Jelly Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_CaveJelly": {
+                    "Id": "Add.ModId_CaveJelly",
+                    "ItemId": "(O)CaveJelly",
+                    "Price": "{{Cave Jelly Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_CaveJelly", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "River Jelly Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_RiverJelly": {
+                    "Id": "Add.ModId_RiverJelly",
+                    "ItemId": "(O)RiverJelly",
+                    "Price": "{{River Jelly Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RiverJelly", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Sea Jelly Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_SeaJelly": {
+                    "Id": "Add.ModId_SeaJelly",
+                    "ItemId": "(O)SeaJelly",
+                    "Price": "{{Sea Jelly Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SeaJelly", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Seaweed Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_Seaweed": {
+                    "Id": "Add.ModId_Seaweed",
+                    "ItemId": "(O)152",
+                    "Price": "{{Seaweed Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Seaweed", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "Green Algae Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_GreenAlgae": {
+                    "Id": "Add.ModId_GreenAlgae",
+                    "ItemId": "(O)153",
+                    "Price": "{{Green Algae Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GreenAlgae", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "When": {
+                "White Algae Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_IridiumOre": {
+                    "Id": "Add.ModId_WhiteAlgae",
+                    "ItemId": "(O)157",
+                    "Price": "{{White Algae Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WhiteAlgae", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

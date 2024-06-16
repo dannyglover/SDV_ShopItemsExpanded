@@ -1,0 +1,175 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Preserves Jar Enabled": true,
+                "HasCraftingRecipe": "Preserves Jar"
+            },
+            "Entries": {
+                "Add.ModId_PreservesJar": {
+                    "Id": "Add.ModId_PreservesJar",
+                    "ItemId": "(BC)15",
+                    "Price": "{{Preserves Jar Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PreservesJar", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Cask Enabled": true,
+                "HasCraftingRecipe": "Cask"
+            },
+            "Entries": {
+                "Add.ModId_Cask": {
+                    "Id": "Add.ModId_Cask",
+                    "ItemId": "(BC)163",
+                    "Price": "{{Cask Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Cask", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Keg Enabled": true,
+                "HasCraftingRecipe": "Keg"
+            },
+            "Entries": {
+                "Add.ModId_Keg": {
+                    "Id": "Add.ModId_Keg",
+                    "ItemId": "(BC)12",
+                    "Price": "{{Keg Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Keg", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Bee House Enabled": true,
+                "HasCraftingRecipe": "Bee House"
+            },
+            "Entries": {
+                "Add.ModId_BeeHouse": {
+                    "Id": "Add.ModId_BeeHouse",
+                    "ItemId": "(BC)10",
+                    "Price": "{{Bee House Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_BeeHouse", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Farm Computer Enabled": true,
+                "HasCraftingRecipe": "Farm Computer"
+            },
+            "Entries": {
+                "Add.ModId_FarmComputer": {
+                    "Id": "Add.ModId_FarmComputer",
+                    "ItemId": "(BC)239",
+                    "Price": "{{Farm Computer Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FarmComputer", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Solar Panel Enabled": true,
+                "HasCraftingRecipe": "Solar Panel"
+            },
+            "Entries": {
+                "Add.ModId_SolarPanel": {
+                    "Id": "Add.ModId_SolarPanel",
+                    "ItemId": "(BC)231",
+                    "Price": "{{Solar Panel Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SolarPanel", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Wood Chipper Enabled": true,
+                "HasCraftingRecipe": "Wood Chipper"
+            },
+            "Entries": {
+                "Add.ModId_WoodChipper": {
+                    "Id": "Add.ModId_WoodChipper",
+                    "ItemId": "(BC)211",
+                    "Price": "{{Wood Chipper Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WoodChipper", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Deconstructor Enabled": true,
+                "HasCraftingRecipe": "Deconstructor"
+            },
+            "Entries": {
+                "Add.ModId_Deconstructor": {
+                    "Id": "Add.ModId_Deconstructor",
+                    "ItemId": "(BC)265",
+                    "Price": "{{Deconstructor Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Deconstructor", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Hopper Enabled": true,
+                "HasCraftingRecipe": "Hopper"
+            },
+            "Entries": {
+                "Add.ModId_Hopper": {
+                    "Id": "Add.ModId_Hopper",
+                    "ItemId": "(BC)275",
+                    "Price": "{{Hopper Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Hopper", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}
