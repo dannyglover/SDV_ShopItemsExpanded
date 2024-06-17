@@ -35,6 +35,42 @@
             "MoveEntries": [
                 { "Id": "Add.ModId_BoneFragment", "ToPosition": "Bottom" }
             ]
-        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "When": {
+                "Star Shards Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_StarShards": {
+                    "Id": "Add.ModId_StarShards",
+                    "ItemId": "(O)578",
+                    "Price": "{{Star Shards Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StarShards", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "When": {
+                "Arctic Shards Enabled": true
+            },
+            "Entries": {
+                "Add.ModId_ArcticShards": {
+                    "Id": "Add.ModId_ArcticShards",
+                    "ItemId": "(O)868",
+                    "Price": "{{Arctic Shards Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_ArcticShards", "ToPosition": "Bottom" }
+            ]
+        },
     ]
 }

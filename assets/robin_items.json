@@ -149,6 +149,63 @@
             "MoveEntries": [
                 { "Id": "Add.ModId_BigStoneChest", "ToPosition": "Bottom" }
             ]
-        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Wood Sign Enabled": true,
+                "HasCraftingRecipe": "Wood Sign"
+            },
+            "Entries": {
+                "Add.ModId_WoodSign": {
+                    "Id": "Add.ModId_WoodSign",
+                    "ItemId": "(BC)37",
+                    "Price": "{{Wood Sign Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WoodSign", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Stone Sign Enabled": true,
+                "HasCraftingRecipe": "Stone Sign"
+            },
+            "Entries": {
+                "Add.ModId_StoneSign": {
+                    "Id": "Add.ModId_StoneSign",
+                    "ItemId": "(BC)38",
+                    "Price": "{{Stone Sign Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_StoneSign", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "When": {
+                "Garden Pot Enabled": true,
+                "HasCraftingRecipe": "Garden Pot"
+            },
+            "Entries": {
+                "Add.ModId_GardenPot": {
+                    "Id": "Add.ModId_GardenPot",
+                    "ItemId": "(BC)62",
+                    "Price": "{{Garden Pot Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GardenPot", "ToPosition": "Bottom" }
+            ]
+        },
     ]
 }

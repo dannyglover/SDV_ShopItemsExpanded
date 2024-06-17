@@ -77,18 +77,18 @@
             "Target": "Data/Shops",
             "TargetField": [ "ShadowShop", "Items" ],
             "When": {
-                "Iridium Sprinkler Enabled": true,
-                "HasCraftingRecipe": "Iridium Sprinkler"
+                "Dark Sign Enabled": true,
+                "HasCraftingRecipe": "Dark Sign"
             },
             "Entries": {
-                "Add.ModId_IridiumSprinkler": {
-                    "Id": "Add.ModId_IridiumSprinkler",
-                    "ItemId": "(O)645",
-                    "Price": "{{Iridium Sprinkler Price}}"
+                "Add.ModId_DarkSign": {
+                    "Id": "Add.ModId_DarkSign",
+                    "ItemId": "(BC)39",
+                    "Price": "{{Dark Sign Price}}"
                 }
             },
             "MoveEntries": [
-                { "Id": "Add.ModId_IridiumSprinkler", "ToPosition": "Bottom" }
+                { "Id": "Add.ModId_DarkSign", "ToPosition": "Bottom" }
             ]
         },
         {
@@ -127,25 +127,6 @@
             },
             "MoveEntries": [
                 { "Id": "Add.ModId_OstrichEgg", "ToPosition": "Bottom" }
-            ]
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [ "ShadowShop", "Items" ],
-            "When": {
-                "Star Shards Enabled": true,
-                "HasVisitedLocation": "Mine"
-            },
-            "Entries": {
-                "Add.ModId_StarShards": {
-                    "Id": "Add.ModId_StarShards",
-                    "ItemId": "(O)578",
-                    "Price": "{{Star Shards Price}}"
-                }
-            },
-            "MoveEntries": [
-                { "Id": "Add.ModId_StarShards", "ToPosition": "Bottom" }
             ]
         },
         {

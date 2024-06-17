@@ -46,7 +46,7 @@
             "Entries": {
                 "Add.ModId_MagmaCap": {
                     "Id": "Add.ModId_MagmaCap",
-                    "ItemId": "(O)852",
+                    "ItemId": "(O)851",
                     "Price": "{{Magma Cap Price}}"
                 }
             },
@@ -119,8 +119,8 @@
                 "Add.ModId_FossilizedLeg": {
                     "Id": "Add.ModId_FossilizedLeg",
                     "ItemId": "(O)823",
-                    "Price": "{{Fossilized Leg Price}}",
-                    "Stock": 2
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 2
                 }
             },
             "MoveEntries": [
@@ -138,8 +138,8 @@
                 "Add.ModId_FossilizedRibs": {
                     "Id": "Add.ModId_FossilizedRibs",
                     "ItemId": "(O)824",
-                    "Price": "{{Fossilized Ribs Price}}",
-                    "Stock": 1
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 1
                 }
             },
             "MoveEntries": [
@@ -157,8 +157,8 @@
                 "Add.ModId_FossilizedSkull": {
                     "Id": "Add.ModId_FossilizedSkull",
                     "ItemId": "(O)820",
-                    "Price": "{{Fossilized Skull Price}}",
-                    "Stock": 1
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 1
                 }
             },
             "MoveEntries": [
@@ -176,8 +176,8 @@
                 "Add.ModId_FossilizedSpine": {
                     "Id": "Add.ModId_FossilizedSpine",
                     "ItemId": "(O)821",
-                    "Price": "{{Fossilized Spine Price}}",
-                    "Stock": 1
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 1
                 }
             },
             "MoveEntries": [
@@ -195,8 +195,8 @@
                 "Add.ModId_FossilizedTail": {
                     "Id": "Add.ModId_FossilizedTail",
                     "ItemId": "(O)822",
-                    "Price": "{{Fossilized Tail Price}}",
-                    "Stock": 1
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 1
                 }
             },
             "MoveEntries": [
@@ -214,8 +214,8 @@
                 "Add.ModId_MummifiedFrog": {
                     "Id": "Add.ModId_MummifiedFrog",
                     "ItemId": "(O)828",
-                    "Price": "{{Mummified Frog Price}}",
-                    "Stock": 1
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 1
                 }
             },
             "MoveEntries": [
@@ -233,8 +233,8 @@
                 "Add.ModId_MummifiedBat": {
                     "Id": "Add.ModId_MummifiedBat",
                     "ItemId": "(O)827",
-                    "Price": "{{Mummified Bat Price}}",
-                    "Stock": 1
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 1
                 }
             },
             "MoveEntries": [
@@ -252,8 +252,8 @@
                 "Add.ModId_SnakeSkull": {
                     "Id": "Add.ModId_SnakeSkull",
                     "ItemId": "(O)825",
-                    "Price": "{{Snake Skull Price}}",
-                    "Stock": 1
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 1
                 }
             },
             "MoveEntries": [
@@ -271,8 +271,8 @@
                 "Add.ModId_SnakeVertebrae": {
                     "Id": "Add.ModId_SnakeVertebrae",
                     "ItemId": "(O)826",
-                    "Price": "{{Snake Vertebrae Price}}",
-                    "Stock": 2
+                    "Price": "{{Island Musuem Artifact Price}}",
+                    "AvailableStock": 2
                 }
             },
             "MoveEntries": [

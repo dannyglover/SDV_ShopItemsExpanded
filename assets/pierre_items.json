@@ -114,6 +114,63 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
+                "Spring Seeds Enabled": true,
+                "Season": "spring"
+            },
+            "Entries": {
+                "Add.ModId_SpringSeeds": {
+                    "Id": "Add.ModId_SpringSeeds",
+                    "ItemId": "(O)495",
+                    "Price": "{{Spring Seeds Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SpringSeeds", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Summer Seeds Enabled": true,
+                "Season": "summer"
+            },
+            "Entries": {
+                "Add.ModId_SummerSeeds": {
+                    "Id": "Add.ModId_SummerSeeds",
+                    "ItemId": "(O)496",
+                    "Price": "{{Summer Seeds Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_SummerSeeds", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Fall Seeds Enabled": true,
+                "Season": "fall"
+            },
+            "Entries": {
+                "Add.ModId_FallSeeds": {
+                    "Id": "Add.ModId_FallSeeds",
+                    "ItemId": "(O)497",
+                    "Price": "{{Fall Seeds Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FallSeeds", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
                 "Winter Seeds Enabled": true,
                 "Season": "winter"
             },
@@ -126,6 +183,44 @@
             },
             "MoveEntries": [
                 { "Id": "Add.ModId_WinterSeeds", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Mixed Seeds Enabled": true,
+                "Season": "spring, summer, fall"
+            },
+            "Entries": {
+                "Add.ModId_MixedSeeds": {
+                    "Id": "Add.ModId_MixedSeeds",
+                    "ItemId": "(O)770",
+                    "Price": "{{Mixed Seeds Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_MixedSeeds", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Mixed Flower Seeds Enabled": true,
+                "Season": "spring, summer, fall"
+            },
+            "Entries": {
+                "Add.ModId_MixedFlowerSeeds": {
+                    "Id": "Add.ModId_MixedFlowerSeeds",
+                    "ItemId": "MixedFlowerSeeds",
+                    "Price": "{{Mixed Flower Seeds Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_MixedFlowerSeeds", "ToPosition": "Bottom" }
             ]
         },
         {
@@ -164,6 +259,120 @@
             },
             "MoveEntries": [
                 { "Id": "Add.ModId_RareSeeds", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Fairy Seeds Enabled": true,
+                "Season": "fall"
+            },
+            "Entries": {
+                "Add.ModId_FairySeeds": {
+                    "Id": "Add.ModId_FairySeeds",
+                    "ItemId": "(O)425",
+                    "Price": "{{Fairy Seeds Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_FairySeeds", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Sprinkler Enabled": true,
+                "HasCraftingRecipe": "Sprinkler"
+            },
+            "Entries": {
+                "Add.ModId_Sprinkler": {
+                    "Id": "Add.ModId_Sprinkler",
+                    "ItemId": "(O)599",
+                    "Price": "{{Sprinkler Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Sprinkler", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Quality Sprinkler Enabled": true,
+                "HasCraftingRecipe": "Quality Sprinkler"
+            },
+            "Entries": {
+                "Add.ModId_QualitySprinkler": {
+                    "Id": "Add.ModId_QualitySprinkler",
+                    "ItemId": "(O)621",
+                    "Price": "{{Quality Sprinkler Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_QualitySprinkler", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Iridium Sprinkler Enabled": true,
+                "HasCraftingRecipe": "Iridium Sprinkler"
+            },
+            "Entries": {
+                "Add.ModId_IridiumSprinkler": {
+                    "Id": "Add.ModId_IridiumSprinkler",
+                    "ItemId": "(O)645",
+                    "Price": "{{Iridium Sprinkler Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_IridiumSprinkler", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Enricher Enabled": true,
+                "HasVisitedLocation": "QiNutRoom"
+            },
+            "Entries": {
+                "Add.ModId_Enricher": {
+                    "Id": "Add.ModId_Enricher",
+                    "ItemId": "(O)913",
+                    "Price": "{{Enricher Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Enricher", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                "Pressure Nozzle Enabled": true,
+                "HasVisitedLocation": "QiNutRoom"
+            },
+            "Entries": {
+                "Add.ModId_PressureNozzle": {
+                    "Id": "Add.ModId_PressureNozzle",
+                    "ItemId": "(O)915",
+                    "Price": "{{Pressure Nozzle Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_PressureNozzle", "ToPosition": "Bottom" }
             ]
         }
     ]

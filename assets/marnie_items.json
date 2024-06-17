@@ -1,0 +1,23 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AnimalShop", "Items" ],
+            "When": {
+                "Golden Animal Cracker Enabled": true,
+                "Year |contains=1": "false"
+            },
+            "Entries": {
+                "Add.ModId_GoldenAnimalCracker": {
+                    "Id": "Add.ModId_GoldenAnimalCracker",
+                    "ItemId": "GoldenAnimalCracker",
+                    "Price": "{{Golden Animal Cracker Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_GoldenAnimalCracker", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

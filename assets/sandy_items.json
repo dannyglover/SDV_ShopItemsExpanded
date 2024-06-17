@@ -1,0 +1,175 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Scarecrow Enabled": true,
+                "HasCraftingRecipe": "Scarecrow"
+            },
+            "Entries": {
+                "Add.ModId_Scarecrow": {
+                    "Id": "Add.ModId_Scarecrow",
+                    "ItemId": "(BC)8",
+                    "Price": "{{Scarecrow Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Scarecrow", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Deluxe Scarecrow Enabled": true,
+                "HasCraftingRecipe": "Deluxe Scarecrow"
+            },
+            "Entries": {
+                "Add.ModId_DeluxeScarecrow": {
+                    "Id": "Add.ModId_DeluxeScarecrow",
+                    "ItemId": "(BC)167",
+                    "Price": "{{Deluxe Scarecrow Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_DeluxeScarecrow", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Warp Totem Farm Enabled": true,
+                "HasCraftingRecipe": "Warp Totem: Farm"
+            },
+            "Entries": {
+                "Add.ModId_WarpTotemFarm": {
+                    "Id": "Add.ModId_WarpTotemFarm",
+                    "ItemId": "(0)688",
+                    "Price": "{{Warp Totem Farm Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WarpTotemFarm", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Warp Totem Mountains Enabled": true,
+                "HasCraftingRecipe": "Warp Totem: Mountains"
+            },
+            "Entries": {
+                "Add.ModId_WarpTotemMountains": {
+                    "Id": "Add.ModId_WarpTotemMountains",
+                    "ItemId": "(0)689",
+                    "Price": "{{Warp Totem Mountains Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WarpTotemMountains", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Warp Totem Beach Enabled": true,
+                "HasCraftingRecipe": "Warp Totem: Beach"
+            },
+            "Entries": {
+                "Add.ModId_WarpTotemBeach": {
+                    "Id": "Add.ModId_WarpTotemBeach",
+                    "ItemId": "(0)690",
+                    "Price": "{{Warp Totem Beach Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WarpTotemBeach", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Warp Totem Desert Enabled": true,
+                "HasCraftingRecipe": "Warp Totem: Desert"
+            },
+            "Entries": {
+                "Add.ModId_WarpTotemDesert": {
+                    "Id": "Add.ModId_WarpTotemDesert",
+                    "ItemId": "(0)261",
+                    "Price": "{{Warp Totem Desert Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WarpTotemDesert", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Warp Totem Island Enabled": true,
+                "HasCraftingRecipe": "Warp Totem: Island"
+            },
+            "Entries": {
+                "Add.ModId_WarpTotemIsland": {
+                    "Id": "Add.ModId_WarpTotemIsland",
+                    "ItemId": "(0)886",
+                    "Price": "{{Warp Totem Island Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_WarpTotemIsland", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Rain Totem Enabled": true,
+                "HasCraftingRecipe": "Rain Totem"
+            },
+            "Entries": {
+                "Add.ModId_RainTotem": {
+                    "Id": "Add.ModId_RainTotem",
+                    "ItemId": "(0)681",
+                    "Price": "{{Rain Totem Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_RainTotem", "ToPosition": "Bottom" }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "When": {
+                "Treasure Totem Enabled": true,
+                "HasCraftingRecipe": "Treasure Totem"
+            },
+            "Entries": {
+                "Add.ModId_TreasureTotem": {
+                    "Id": "Add.ModId_TreasureTotem",
+                    "ItemId": "TreasureTotem",
+                    "Price": "{{Treasure Totem Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_TreasureTotem", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}

@@ -92,6 +92,39 @@
             "Default": 800,
             "Section": "Robin (Carpenter Shop): Items"
         },
+        "Wood Sign Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Wood Signs to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Robin (Carpenter Shop): Items"
+        },
+        "Wood Sign Price": {
+            "AllowMultiple": false,
+            "Default": 800,
+            "Section": "Robin (Carpenter Shop): Items"
+        },
+        "Stone Sign Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Stone Signs to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Robin (Carpenter Shop): Items"
+        },
+        "Stone Sign Price": {
+            "AllowMultiple": false,
+            "Default": 800,
+            "Section": "Robin (Carpenter Shop): Items"
+        },
+        "Garden Pot Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Garden Pots to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Robin (Carpenter Shop): Items"
+        },
+        "Garden Pot Price": {
+            "AllowMultiple": false,
+            "Default": 450,
+            "Section": "Robin (Carpenter Shop): Items"
+        },
         //
         // Robin (Carpenter Shop) - Machines
         //
@@ -193,6 +226,20 @@
             "AllowMultiple": false,
             "Default": 10000,
             "Section": "Robin (Carpenter Shop): Machines"
+        },
+        //
+        // Marnie (Animal Shop) - Items
+        //
+        "Golden Animal Cracker Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Golden Animal Crackers to the shop (if enabled). Available in year 2 onwards",
+            "Section": "Marnie (Animal Shop): Items"
+        },
+        "Golden Animal Cracker Price": {
+            "AllowMultiple": false,
+            "Default": 15000,
+            "Section": "Marnie (Animal Shop): Items"
         },
         //
         // Marnie (Animal Shop) - Machines
@@ -608,6 +655,39 @@
             "Default": 150,
             "Section": "Pierre (Seed Shop): Items"
         },
+        "Spring Seeds Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Spring Seeds to the shop (if enabled) - Only available in the Spring season.",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Spring Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 40,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Summer Seeds Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Summer Seeds to the shop (if enabled) - Only available in the Summer season.",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Summer Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 40,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Fall Seeds Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Fall Seeds to the shop (if enabled) - Only available in the Fall season.",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Fall Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 40,
+            "Section": "Pierre (Seed Shop): Items"
+        },
         "Winter Seeds Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
@@ -617,6 +697,28 @@
         "Winter Seeds Price": {
             "AllowMultiple": false,
             "Default": 40,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Mixed Seeds Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Mixed Seeds to the shop (if enabled) - Available all seasons except the Winter season.",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Mixed Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 25,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Mixed Flower Seeds Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Mixed Flower Seeds to the shop (if enabled) - Available all seasons except the Winter season.",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Mixed Flower Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 25,
             "Section": "Pierre (Seed Shop): Items"
         },
         "Ancient Seeds Enabled": {
@@ -639,6 +741,72 @@
         "Rare Seeds Price": {
             "AllowMultiple": false,
             "Default": 1500,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Fairy Seeds Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Rare Seeds to the shop (if enabled). Only available in the Fall season.",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Fairy Seeds Price": {
+            "AllowMultiple": false,
+            "Default": 1500,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Sprinkler Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Spinklers to the shop (if enabled) AND the recipe has been learned/unlocked).",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Sprinkler Price": {
+            "AllowMultiple": false,
+            "Default": 1250,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Quality Sprinkler Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Quality Spinklers to the shop (if enabled) AND the recipe has been learned/unlocked).",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Quality Sprinkler Price": {
+            "AllowMultiple": false,
+            "Default": 4000,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Iridium Sprinkler Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Iridium Spinklers to the shop (if enabled) AND the recipe has been learned/unlocked).",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Iridium Sprinkler Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Enricher Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Enrichers to the shop (if enabled) AND the player has visited the Qi's Nut Room at least once",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Enricher Price": {
+            "AllowMultiple": false,
+            "Default": 15000,
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Pressure Nozzle Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Pressure Nozzles to the shop (if enabled) AND the player has visited the Qi's Nut Room at least once",
+            "Section": "Pierre (Seed Shop): Items"
+        },
+        "Pressure Nozzle Price": {
+            "AllowMultiple": false,
+            "Default": 15000,
             "Section": "Pierre (Seed Shop): Items"
         },
         //
@@ -724,15 +892,15 @@
             "Default": 600,
             "Section": "Krobus (Shadow Shop): Items"
         },
-        "Iridium Sprinkler Enabled": {
+        "Dark Sign Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Adds Iridium Spinklers to the shop (if enabled) AND the recipe has been learned/unlocked).",
+            "Description": "Adds Dark Signs to the shop (if enabled AND the recipe has been learned/unlocked).",
             "Section": "Krobus (Shadow Shop): Items"
         },
-        "Iridium Sprinkler Price": {
+        "Dark Sign Price": {
             "AllowMultiple": false,
-            "Default": 10000,
+            "Default": 1000,
             "Section": "Krobus (Shadow Shop): Items"
         },
         "Dinosaur Egg Enabled": {
@@ -755,17 +923,6 @@
         "Ostrich Egg Price": {
             "AllowMultiple": false,
             "Default": 5000,
-            "Section": "Krobus (Shadow Shop): Items"
-        },
-        "Star Shards Enabled": {
-            "AllowValues": "true, false",
-            "Default": "true",
-            "Description": "Adds Star Shards to the shop (if enabled) AND the player has visited the mines at least once",
-            "Section": "Krobus (Shadow Shop): Items"
-        },
-        "Star Shards Price": {
-            "AllowMultiple": false,
-            "Default": 800,
             "Section": "Krobus (Shadow Shop): Items"
         },
         "Prismatic Shard Enabled": {
@@ -829,18 +986,41 @@
             "Default": 500,
             "Section": "Dwarf (Mine Shop): Items"
         },
+        "Star Shards Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Star Shards to the shop (if enabled).",
+            "Section": "Dwarf (Mine Shop): Items"
+        },
+        "Star Shards Price": {
+            "AllowMultiple": false,
+            "Default": 800,
+            "Section": "Dwarf (Mine Shop): Items"
+        },
+        "Arctic Shards Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Arctic Shards to the shop (if enabled).",
+            "Section": "Dwarf (Mine Shop): Items"
+        },
+        "Arctic Shards Price": {
+            "AllowMultiple": false,
+            "Default": 800,
+            "Section": "Dwarf (Mine Shop): Items"
+        },
         //
         // Traveling Cart (Forest Shop) - Items
         //
+        "Museum Artifact Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Description": "The price for Museum Artifacts. All individual Artifacts use this price.",
+            "Section": "Travelling Cart (Forest Shop): Items"
+        },
         "Dwarf Scroll I Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Dwarf Scroll I to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Dwarf Scroll I Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Dwarf Scroll II Enabled": {
@@ -849,20 +1029,10 @@
             "Description": "Adds Dwarf Scroll II to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Dwarf Scroll II Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Dwarf Scroll III Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Dwarf Scroll III to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Dwarf Scroll III Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Dwarf Scroll IV Enabled": {
@@ -871,20 +1041,10 @@
             "Description": "Adds Dwarf Scroll IV to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Dwarf Scroll IV Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Chipped Amphora Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Chipped Amphora to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Chipped Amphora Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Arrowhead Enabled": {
@@ -893,20 +1053,10 @@
             "Description": "Adds Arrowheads to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Arrowhead Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Ancient Doll Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Ancient Dolls to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Ancient Doll Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Elvish Jewelry Enabled": {
@@ -915,20 +1065,10 @@
             "Description": "Adds Elvish Jewelry to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Elvish Jewelry Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Chewing Stick Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Chewing Sticks to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Chewing Stick Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Ornamental Fan Enabled": {
@@ -937,20 +1077,10 @@
             "Description": "Adds Ornamental Fans to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Ornamental Fan Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Rare Disc Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Rare Discs to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Rare Disc Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Ancient Sword Enabled": {
@@ -959,20 +1089,10 @@
             "Description": "Adds Ancient Swords to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Ancient Sword Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Rusty Spoon Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Rusty Spoons to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Rusty Spoon Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Rusty Spur Enabled": {
@@ -981,20 +1101,10 @@
             "Description": "Adds Rusty Spurs to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Rusty Spur Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Rusty Cog Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Rusty Cogs to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Rusty Cog Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Chicken Statue Enabled": {
@@ -1003,20 +1113,10 @@
             "Description": "Adds Chicken Statues to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Chicken Statue Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Ancient Seed Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Ancient Seeds to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Ancient Seed Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Prehistoric Tool Enabled": {
@@ -1025,20 +1125,10 @@
             "Description": "Adds Prehistoric Tools to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Prehistoric Tool Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Dried Starfish Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Dried Starfish to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Dried Starfish Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Anchor Enabled": {
@@ -1047,20 +1137,10 @@
             "Description": "Adds Anchors to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Anchor Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Glass Shards Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Glass Shards to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Glass Shards Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Bone Flute Enabled": {
@@ -1069,20 +1149,10 @@
             "Description": "Adds Bone Flutes to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Bone Flute Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Prehistoric Handaxe Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Prehistoric Handaxes to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Prehistoric Handaxe Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Dwarvish Helm Enabled": {
@@ -1091,20 +1161,10 @@
             "Description": "Adds Dwarvish Helms to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Dwarvish Helm Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Dwarf Gadget Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Dwarf Gadgets to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Dwarf Gadget Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Ancient Drum Enabled": {
@@ -1113,20 +1173,10 @@
             "Description": "Adds Ancient Drums to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Ancient Drum Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Golden Mask Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Golden Masks to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Golden Mask Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Golden Relic Enabled": {
@@ -1135,20 +1185,10 @@
             "Description": "Adds Golden Relics to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Golden Relic Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Strange Doll Green Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Strange Doll Green to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Strange Doll Green Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Strange Doll Yellow Enabled": {
@@ -1157,20 +1197,10 @@
             "Description": "Adds Strange Doll Yellow to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Strange Doll Yellow Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Prehistoric Scapula Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Prehistoric Scapulas to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Prehistoric Scapula Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Prehistoric Tibia Enabled": {
@@ -1179,20 +1209,10 @@
             "Description": "Adds Prehistoric Tibias to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Prehistoric Tibia Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Prehistoric Skull Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Prehistoric Skulls to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Prehistoric Skull Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Skeletal Hand Enabled": {
@@ -1201,20 +1221,10 @@
             "Description": "Adds Skeletal Hands to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Skeletal Hand Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Prehistoric Rib Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Prehistoric Ribs to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Prehistoric Rib Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Prehistoric Vertebra Enabled": {
@@ -1223,20 +1233,10 @@
             "Description": "Adds Prehistoric Vertebras to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Prehistoric Vertebra Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Skeletal Tail Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Skeletal Tails to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Skeletal Tail Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Nautilus Fossil Enabled": {
@@ -1245,20 +1245,10 @@
             "Description": "Adds Nautilus Fossils to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Nautilus Fossil Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Amphibian Fossil Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Amphibian Fossils to the shop (if enabled AND if the museum collection is NOT yet completed).",
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
-        "Amphibian Fossil Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Travelling Cart (Forest Shop): Items"
         },
         "Palm Fossil Enabled": {
@@ -1267,25 +1257,21 @@
             "Description": "Adds Palm Fossils to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Palm Fossil Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         "Trilobite Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Trilobite to the shop (if enabled AND if the museum collection is NOT yet completed).",
             "Section": "Travelling Cart (Forest Shop): Items"
         },
-        "Trilobite Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Travelling Cart (Forest Shop): Items"
-        },
         //
         // Island Trader (Island Shop) - Items
         //
+        "Island Musuem Artifact Price": {
+            "AllowMultiple": false,
+            "Default": 10000,
+            "Description": "The price for Island Museum Artifacts. All individual Island Artifacts use this price.",
+            "Section": "Trader (Island Shop): Items"
+        },
         "Cinder Shards Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
@@ -1358,20 +1344,10 @@
             "Description": "Adds Fossilized Legs to the shop (if enabled AND access to ginger island is unlocked).",
             "Section": "Trader (Island Shop): Items"
         },
-        "Fossilized Leg Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Trader (Island Shop): Items"
-        },
         "Fossilized Ribs Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Fossilized Ribs to the shop (if enabled AND access to ginger island is unlocked).",
-            "Section": "Trader (Island Shop): Items"
-        },
-        "Fossilized Ribs Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Trader (Island Shop): Items"
         },
         "Fossilized Skull Enabled": {
@@ -1380,20 +1356,10 @@
             "Description": "Adds Fossilized Skulls to the shop (if enabled AND access to ginger island is unlocked).",
             "Section": "Trader (Island Shop): Items"
         },
-        "Fossilized Skull Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Trader (Island Shop): Items"
-        },
         "Fossilized Spine Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Fossilized Spines to the shop (if enabled AND access to ginger island is unlocked).",
-            "Section": "Trader (Island Shop): Items"
-        },
-        "Fossilized Spine Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Trader (Island Shop): Items"
         },
         "Fossilized Tail Enabled": {
@@ -1402,20 +1368,10 @@
             "Description": "Adds Fossilized Tails to the shop (if enabled AND access to ginger island is unlocked).",
             "Section": "Trader (Island Shop): Items"
         },
-        "Fossilized Tail Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Trader (Island Shop): Items"
-        },
         "Mummified Frog Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Mummified Frogs to the shop (if enabled AND access to ginger island is unlocked).",
-            "Section": "Trader (Island Shop): Items"
-        },
-        "Mummified Frog Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Trader (Island Shop): Items"
         },
         "Mummified Bat Enabled": {
@@ -1424,20 +1380,10 @@
             "Description": "Adds Mummified Bats to the shop (if enabled AND access to ginger island is unlocked).",
             "Section": "Trader (Island Shop): Items"
         },
-        "Mummified Bat Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Trader (Island Shop): Items"
-        },
         "Snake Skull Enabled": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "Adds Snake Skulls to the shop (if enabled AND access to ginger island is unlocked).",
-            "Section": "Trader (Island Shop): Items"
-        },
-        "Snake Skull Price": {
-            "AllowMultiple": false,
-            "Default": 10000,
             "Section": "Trader (Island Shop): Items"
         },
         "Snake Vertebrae Enabled": {
@@ -1446,20 +1392,135 @@
             "Description": "Adds Snake Vertebrae to the shop (if enabled AND access to ginger island is unlocked).",
             "Section": "Trader (Island Shop): Items"
         },
-        "Snake Vertebrae Price": {
+        //
+        // Sandy Trader (Desert Oasis Shop) - Items
+        //
+        "Scarecrow Price": {
             "AllowMultiple": false,
-            "Default": 10000,
-            "Section": "Trader (Island Shop): Items"
+            "Default": 1500,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Scarecrow Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Scarecrows to the shop (if enabled).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Deluxe Scarecrow Price": {
+            "AllowMultiple": false,
+            "Default": 15000,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Deluxe Scarecrow Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Deluxe Scarecrows to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Farm Price": {
+            "AllowMultiple": false,
+            "Default": 1000,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Farm Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Warp Totem Farm to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Mountains Price": {
+            "AllowMultiple": false,
+            "Default": 1000,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Mountains Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Warp Totem Mountains to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Beach Price": {
+            "AllowMultiple": false,
+            "Default": 1000,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Beach Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Warp Totem Beach to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Desert Price": {
+            "AllowMultiple": false,
+            "Default": 1000,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Desert Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Warp Totem Beach to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Island Price": {
+            "AllowMultiple": false,
+            "Default": 1000,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Warp Totem Island Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Warp Totem Island to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Rain Totem Price": {
+            "AllowMultiple": false,
+            "Default": 2500,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Rain Totem Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Rain Totems to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Treasure Totem Price": {
+            "AllowMultiple": false,
+            "Default": 2500,
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        "Treasure Totem Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Treasure Totems to the shop (if enabled AND the recipe has been learned/unlocked).",
+            "Section": "Sandy (Oasis Shop): Items"
+        },
+        //
+        // Desert Trader (Desert Shop) - Items
+        //
+        "Staircase Price": {
+            "AllowMultiple": false,
+            "Default": 500,
+            "Section": "Desert Trader (Desert Shop): Items"
+        },
+        "Staircase Enabled": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds Staircases to the shop (if enabled).",
+            "Section": "Desert Trader (Desert Shop): Items"
         }
     },
     "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "assets/robin_items.json"
+        },
         {
             "Action": "Include",
             "FromFile": "assets/robin_machines.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/robin_items.json"
+            "FromFile": "assets/marnie_items.json"
         },
         {
             "Action": "Include",
@@ -1467,15 +1528,11 @@
         },
         {
             "Action": "Include",
-            "FromFile": "assets/clint_machines.json"
-        },
-        {
-            "Action": "Include",
             "FromFile": "assets/clint_items.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/willy_machines.json"
+            "FromFile": "assets/clint_machines.json"
         },
         {
             "Action": "Include",
@@ -1483,7 +1540,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "assets/pierre_machines.json"
+            "FromFile": "assets/willy_machines.json"
         },
         {
             "Action": "Include",
@@ -1491,11 +1548,15 @@
         },
         {
             "Action": "Include",
-            "FromFile": "assets/krobus_machines.json"
+            "FromFile": "assets/pierre_machines.json"
         },
         {
             "Action": "Include",
             "FromFile": "assets/krobus_items.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/krobus_machines.json"
         },
         {
             "Action": "Include",
@@ -1508,6 +1569,14 @@
         {
             "Action": "Include",
             "FromFile": "assets/trader_island_items.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/sandy_items.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/trader_desert_items.json"
         }
     ]
 }

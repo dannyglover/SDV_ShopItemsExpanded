@@ -6,6 +6,7 @@ Shop Items Expanded is a mod for Stardew Valley that adds more items for sale in
 
 - Any item/machine that has a crafting recipe will not be listed in a shops inventory until you've unlocked the crafting recipe for the respective item.
 - Some items are not listed in shop inventories until you've completed a certain task (generally unlocking/visiting a location once). Those items have the requirements listed next to their entries below.
+- Musuem items in the Traveling Cart are removed from sale once the Musuem has been completed. This is due to it making no sense for them to remain for sale once the Museum has been completed.
 
 ### Requirements
 
@@ -31,6 +32,9 @@ Items:
 - Big Chest
 - Stone Chest
 - Big Stone Chest
+- Wood Sign
+- Stone Sign
+- Garden Pot
 
 Machines:
 
@@ -45,6 +49,10 @@ Machines:
 - Hopper
 
 #### Marnie (Animal Shop)
+
+Items:
+
+- Golden Animal Cracker (available from year 2 onwards)
 
 Machines:
 
@@ -105,9 +113,20 @@ Items:
 - Maple Syrup
 - Moss
 - Strawberry Seeds (only available in Spring)
+- Spring Seeds (only available in Spring)
+- Summer Seeds (only available in Summer)
+- Fall Seeds (only available in Fall)
 - Winter Seeds (only available in Winter)
+- Mixed Seeds (available all seasons except Winter)
+- Mixed Flower Seeds (available all seasons except Winter)
 - Ancient Seeds (available all seasons except Winter)
 - Rare Seeds (only available in Spring)
+- Fairy Seeds (only available in Fall)
+- Sprinkler
+- Quality Sprinkler
+- Iridium Sprinkler
+- Enricher (unlocked after visiting the Qi's Nut Room at least once)
+- Pressure Nozzle (unlocked after visiting the Qi's Nut Room at least once)
 
 Machines:
 
@@ -123,10 +142,9 @@ Items:
 - Solar Essence
 - Void Essence
 - Cloth
-- Iridium Sprinkler
+- Dark Sign
 - Dinosaur Egg (unlocked after visiting the Skull Cavern for the first time)
 - Ostrich Egg (unlocked after visiting the Skull Cavern for the first time)
-- Star Shards (unlocked after visiting the Mine for the first time)
 - Prismatic Shard (unlocked after visiting the Skull Cavern for the first time)
 
 Machines:
@@ -140,12 +158,18 @@ Items:
 
 - Earth Crystal
 - Bone Fragment
+- Star Shards
+- Arctic Shards
 
 #### Traveling Cart (Forest Shop)
+
+Items:
 
 - All required artifacts for the Museum
 
 #### Trader (Island Shop)
+
+Items: 
 
 - Cinder Shards
 - Dragons Teeth
@@ -154,6 +178,22 @@ Items:
 - Banana Sapling
 - Mango Sapling
 - All required items for the Island Field office Museum
+
+#### Sandy (Desert Oasis Shop)
+
+Items: 
+
+- Scarecrow
+- Deluxe Scarecrow
+- Warp Totems: Desert, Farm, Mountains, Beach & Island
+- Rain Totem
+- Treasure Totem
+
+#### Desert Trader (Desert Shop)
+
+Items: 
+
+- Staircase
 
 #### FAQ
 

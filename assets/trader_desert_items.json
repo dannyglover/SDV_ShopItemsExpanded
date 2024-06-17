@@ -1,0 +1,23 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "DesertTrade", "Items" ],
+            "When": {
+                "Staircase Enabled": true,
+                "HasCraftingRecipe": "Staircase"
+            },
+            "Entries": {
+                "Add.ModId_Staircase": {
+                    "Id": "Add.ModId_Staircase",
+                    "ItemId": "(BC)71",
+                    "Price": "{{Staircase Price}}"
+                }
+            },
+            "MoveEntries": [
+                { "Id": "Add.ModId_Staircase", "ToPosition": "Bottom" }
+            ]
+        }
+    ]
+}
